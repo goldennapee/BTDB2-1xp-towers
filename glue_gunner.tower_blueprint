@@ -1,0 +1,2510 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.8999999761581421
+            }
+        },
+        {
+            "key": "weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "projectile_ref",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "splat_ref",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "aoe_radius",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "aoe_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "proj_radius",
+            "variable": {
+                "type": "Float",
+                "value": 4.0
+            }
+        },
+        {
+            "key": "proj_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "bloon_speed_mod",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "bloon_speed_mod_duration",
+            "variable": {
+                "type": "Float",
+                "value": 11.0
+            }
+        },
+        {
+            "key": "bloon_speed_mod_layers",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "moab_glue",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "corrosive_glue",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "dot_interval",
+            "variable": {
+                "type": "Float",
+                "value": 2.299999952316284
+            }
+        },
+        {
+            "key": "dot_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "enable_glue_strike",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "type_exclusion",
+            "variable": {
+                "type": "BloonType",
+                "value": "MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "proj_glue_strike",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "weapon_glue_strike",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "enable_glob",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "glob_transfers",
+            "variable": {
+                "type": "Int",
+                "value": 2
+            }
+        },
+        {
+            "key": "glob_ref",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "splatter_aoe_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "enable_splatter",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "glue_strike_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 30.0
+            }
+        },
+        {
+            "key": "enable_glue_storm",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_super_glue",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "glue_strike_visual_index",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "glue_radius_visual_index",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "glue_group",
+            "variable": {
+                "type": "String",
+                "value": "glue"
+            }
+        },
+        {
+            "key": "glue_override_groups",
+            "variable": {
+                "type": "GroupArray",
+                "value": []
+            }
+        },
+        {
+            "key": "exclusion_mod_groups",
+            "variable": {
+                "type": "GroupArray",
+                "value": [
+                    "glue",
+                    "glue_strike",
+                    "corrosive",
+                    "glue_strike_corrosive",
+                    "dissolver",
+                    "liquefier",
+                    "solver",
+                    "moab_glue",
+                    "relentless",
+                    "super_glue",
+                    "super_glue_moab"
+                ]
+            }
+        },
+        {
+            "key": "regular_glue_mod_group_ref",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "moab_glue_mod_group_ref",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "all_modifiers_ref",
+            "variable": {
+                "type": "Node",
+                "value": 51
+            }
+        },
+        {
+            "key": "bloon_glue_status",
+            "variable": {
+                "type": "BloonStatus",
+                "value": "Glue"
+            }
+        },
+        {
+            "key": "moab_speed_mod",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "glue_strike_duration",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "glue_lifespan_ref",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "glue_lifespan_moab_ref",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "exclusion_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "glue_strike_ability_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "ability_id",
+            "variable": {
+                "type": "String",
+                "value": "glue_strike"
+            }
+        },
+        {
+            "key": "enable_solver",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "untargetable_bloons_ref",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "regular_slow_ref",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "moabs_slow_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "include_moabs_ref",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "exclude_moabs_ref",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "moabddt_immobilize_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "bfb_immobilize_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "zomg_immobilize_ref",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "ceramics_extra_dot_ref",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "moab_extra_dot_ref",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "regular_glue_status_vfx",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "moab_glue_status_vfx",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "glue_strike_layers",
+            "variable": {
+                "type": "Int",
+                "value": 6
+            }
+        },
+        {
+            "key": "glue_strike_lifespan_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "glue_strike_lifespan_moab_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "glue_strike_glue_duration_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "extra_damage_to_moabs_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "glob_lifespan_ref",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "glob_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "glue_strike_mod_group",
+            "variable": {
+                "type": "Node",
+                "value": 48
+            }
+        },
+        {
+            "key": "glue_strike_group",
+            "variable": {
+                "type": "String",
+                "value": "glue_strike"
+            }
+        },
+        {
+            "key": "glue_strike_exclusion_groups",
+            "variable": {
+                "type": "GroupArray",
+                "value": [
+                    "corrosive",
+                    "glue_strike_corrosive",
+                    "dissolver",
+                    "liquefier",
+                    "solver"
+                ]
+            }
+        },
+        {
+            "key": "glue_strike_override_groups",
+            "variable": {
+                "type": "GroupArray",
+                "value": [
+                    "glue"
+                ]
+            }
+        },
+        {
+            "key": "glue_strike_regular_dmg_adj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 49
+            }
+        },
+        {
+            "key": "glue_strike_moab_dmg_adj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 50
+            }
+        },
+        {
+            "key": "glue_strike_speed_mod",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "dot_on_bad_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "main_proj_avoid_buff",
+            "variable": {
+                "type": "BuffType",
+                "value": "Damage"
+            }
+        },
+        {
+            "key": "glue_strike_extra_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "glue_strike_remove_sharp_ref",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "glue_strike_mod_on_contact_ref",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "glue_strike_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 52
+            }
+        },
+        {
+            "key": "glue_strike_moabclass_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 53
+            }
+        },
+        {
+            "key": "glue_strike_status_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 54
+            }
+        },
+        {
+            "key": "glue_strike_status_moab_class_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 55
+            }
+        },
+        {
+            "key": "glue_strike_audio_index",
+            "variable": {
+                "type": "Int",
+                "value": 4
+            }
+        },
+        {
+            "key": "enable_liquifier",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_GlueGunner",
+            "description": "LOC_TOWER_DESC_GlueGunner",
+            "cost": 200.0,
+            "unlock_cost_monkey_money": 25.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "GlueGunner",
+                "tower_category": "Primary",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 7.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": 46.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "weapon_ref",
+                    "weapon_glue_strike"
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Glue_Soak",
+            "description": "LOC_UPGRADE_DESC_Glue_Soak",
+            "parent_id": 0,
+            "cost": 200.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "bloon_speed_mod_layers",
+                    "expression": "99"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Corrosive_Glue",
+            "description": "LOC_UPGRADE_DESC_Corrosive_Glue",
+            "parent_id": 1,
+            "cost": 300.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "corrosive_glue",
+                    "expression": "true"
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "t + {\"glue\",\"glue_strike\"}"
+                },
+                {
+                    "key": "type_exclusion",
+                    "expression": "x &~ (EBloonType.MOAB|EBloonType.BFB|EBloonType.DDT|EBloonType.ZOMG|EBloonType.BAD)"
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"glue\",\"glue_strike\"}"
+                },
+                {
+                    "key": "dot_interval",
+                    "expression": "enable_super_glue and 2.0 or x"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "moab_glue == false and \"corrosive\" or x"
+                },
+                {
+                    "key": "glue_strike_group",
+                    "expression": "enable_glue_storm == true and \"glue_storm_corrosive\" or \"glue_strike_corrosive\""
+                },
+                {
+                    "key": "glue_strike_override_groups",
+                    "expression": "x + {\"corrosive\",\"glue_strike\"}"
+                },
+                {
+                    "key": "glue_strike_exclusion_groups",
+                    "expression": "x - {\"corrosive\",\"glue_strike_corrosive\",\"glue_storm_corrosive\", \"moab_glue\",\"relentless\",\"super_glue\",\"super_glue_moab\"}"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Bloon_Dissolver",
+            "description": "LOC_UPGRADE_DESC_Bloon_Dissolver",
+            "parent_id": 2,
+            "cost": 2500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "dot_interval",
+                    "expression": "0.65"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"dissolver\""
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "x + {\"corrosive\",\"glue_strike_corrosive\"}"
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"corrosive\",\"glue_strike_corrosive\",\"glue_storm_corrosive\",\"moab_glue\",\"relentless\",\"super_glue\",\"super_glue_moab\"}"
+                },
+                {
+                    "key": "bloon_glue_status",
+                    "expression": "(x | EBloonStatus.Glue_Corrosive) &~ (EBloonStatus.Glue | EBloonStatus.Glue_Relentless)"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Bloon_Liquefier",
+            "description": "LOC_UPGRADE_DESC_Bloon_Liquefier",
+            "parent_id": 3,
+            "cost": 5000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "dot_interval",
+                    "expression": "0.1"
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "x + {\"dissolver\"}"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"liquefier\""
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"dissolver\"}"
+                },
+                {
+                    "key": "proj_pierce",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "enable_liquifier",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_The_Bloon_Solver",
+            "description": "LOC_UPGRADE_DESC_The_Bloon_Solver",
+            "parent_id": 4,
+            "cost": 22000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_radius",
+                    "expression": "b + 12"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "x * .25"
+                },
+                {
+                    "key": "proj_pierce",
+                    "expression": "1"
+                },
+                {
+                    "key": "dot_damage",
+                    "expression": "x + 2"
+                },
+                {
+                    "key": "enable_splatter",
+                    "expression": "true"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": "x + 5"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"solver\""
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "x + {\"liquefier\"}"
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"liquefier\"}"
+                },
+                {
+                    "key": "enable_solver",
+                    "expression": "true"
+                },
+                {
+                    "key": "main_proj_avoid_buff",
+                    "expression": "x | EBuffType.Pierce"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Bigger_Globs",
+            "description": "LOC_UPGRADE_DESC_Bigger_Globs",
+            "parent_id": 0,
+            "cost": 100.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "proj_radius",
+                    "expression": "5"
+                },
+                {
+                    "key": "proj_pierce",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Glue_Splatter",
+            "description": "LOC_UPGRADE_DESC_Glue_Splatter",
+            "parent_id": 6,
+            "cost": 700.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_radius",
+                    "expression": "b + 17"
+                },
+                {
+                    "key": "enable_splatter",
+                    "expression": "true"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": "x+8"
+                },
+                {
+                    "key": "proj_pierce",
+                    "expression": "1"
+                },
+                {
+                    "key": "main_proj_avoid_buff",
+                    "expression": "x | EBuffType.Pierce"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Glue_Hose",
+            "description": "LOC_UPGRADE_DESC_Glue_Hose",
+            "parent_id": 7,
+            "cost": 2000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "reload_time",
+                    "expression": "x / 3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Glue_Strike",
+            "description": "LOC_UPGRADE_DESC_Glue_Strike",
+            "parent_id": 8,
+            "cost": 4000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_glue_strike",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Glue_Storm",
+            "description": "LOC_UPGRADE_DESC_Glue_Storm",
+            "parent_id": 9,
+            "cost": 15000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "glue_strike_cooldown",
+                    "expression": "30"
+                },
+                {
+                    "key": "enable_glue_storm",
+                    "expression": "true"
+                },
+                {
+                    "key": "glue_strike_speed_mod",
+                    "expression": "x - 0.25"
+                },
+                {
+                    "key": "glue_strike_visual_index",
+                    "expression": "4"
+                },
+                {
+                    "key": "glue_radius_visual_index",
+                    "expression": "2"
+                },
+                {
+                    "key": "glue_strike_duration",
+                    "expression": "15"
+                },
+                {
+                    "key": "glue_strike_ability_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "ability_id",
+                    "expression": "\"glue_storm\""
+                },
+                {
+                    "key": "glue_strike_layers",
+                    "expression": "9"
+                },
+                {
+                    "key": "glue_strike_glue_duration_multiplier",
+                    "expression": "2"
+                },
+                {
+                    "key": "glue_strike_extra_damage",
+                    "expression": "x + 1"
+                },
+                {
+                    "key": "glue_strike_group",
+                    "expression": "\"glue_storm\""
+                },
+                {
+                    "key": "glue_strike_override_groups",
+                    "expression": "x + {\"corrosive\",\"glue_strike\",\"glue_strike_corrosive\"}"
+                },
+                {
+                    "key": "glue_strike_audio_index",
+                    "expression": "5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Stickier_Glue",
+            "description": "LOC_UPGRADE_DESC_Stickier_Glue",
+            "parent_id": 0,
+            "cost": 120.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "bloon_speed_mod_duration",
+                    "expression": "24"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Stronger_Glue",
+            "description": "LOC_UPGRADE_DESC_Stronger_Glue",
+            "parent_id": 11,
+            "cost": 400.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "bloon_speed_mod",
+                    "expression": "x * 0.5"
+                },
+                {
+                    "key": "glue_strike_speed_mod",
+                    "expression": "x * 0.5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_MOAB_Glue",
+            "description": "LOC_UPGRADE_DESC_MOAB_Glue",
+            "parent_id": 12,
+            "cost": 3400.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "moab_glue",
+                    "expression": "true"
+                },
+                {
+                    "key": "type_exclusion",
+                    "expression": "x &~ (EBloonType.MOAB|EBloonType.BFB|EBloonType.ZOMG|EBloonType.DDT|EBloonType.BAD)"
+                },
+                {
+                    "key": "bloon_glue_status",
+                    "expression": "(x | EBloonStatus.Glue_Relentless) &~ EBloonStatus.Glue"
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"glue\",\"corrosive\",\"dissolver\",\"liquefier\",\"solver\",\"glue_strike\",\"glue_strike\",\"glue_strike_corrosive\"}"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"moab_glue\""
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "t + {\"glue\",\"glue_strike\"}"
+                },
+                {
+                    "key": "moab_speed_mod",
+                    "expression": "1 - (1 - bloon_speed_mod) * 0.5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Relentless_Glue",
+            "description": "LOC_UPGRADE_DESC_Relentless_Glue",
+            "parent_id": 13,
+            "cost": 3000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_glob",
+                    "expression": "true"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"relentless\""
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"moab_glue\"}"
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "x + {\"moab_glue\"}"
+                },
+                {
+                    "key": "glob_lifespan_ref",
+                    "expression": "45"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Super_Glue",
+            "description": "LOC_UPGRADE_DESC_Super_Glue",
+            "parent_id": 14,
+            "cost": 28000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "corrosive_glue",
+                    "expression": "true"
+                },
+                {
+                    "key": "bloon_speed_mod",
+                    "expression": "0"
+                },
+                {
+                    "key": "enable_super_glue",
+                    "expression": "true"
+                },
+                {
+                    "key": "glue_override_groups",
+                    "expression": "x + {\"relentless\"}"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "proj_pierce",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "glue_group",
+                    "expression": "\"super_glue\""
+                },
+                {
+                    "key": "exclusion_mod_groups",
+                    "expression": "x - {\"relentless\",\"super_glue_moab\"} + {\"immobilize\"}"
+                },
+                {
+                    "key": "regular_glue_mod_group_ref",
+                    "expression": "25"
+                },
+                {
+                    "key": "moab_glue_mod_group_ref",
+                    "expression": "28"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Main Weapon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": 0.14000000059604646,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": "untargetable_bloons_ref"
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "projectile_ref"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Main Projectile",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Acid",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "(enable_solver and 2) or (enable_splatter and 1) or proj_pierce",
+                "avoid_buff": "main_proj_avoid_buff",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.4300000071525574
+                },
+                "collision_filter_props": "untargetable_bloons_ref",
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": "enable_splatter or enable_glob",
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 1,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": true,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "bloon_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "enable_glob",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "glob_ref"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "enable_splatter",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "splatter_aoe_ref"
+                        }
+                    ]
+                },
+                "modify_bloon_props": "all_modifiers_ref",
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": "enable_super_glue",
+                    "damage_adjust_filters": [
+                        "extra_damage_to_moabs_ref"
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 300.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "Glob",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 6.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Acid",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "glob_transfers",
+                "avoid_buff": "Damage|Pierce",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": "enable_glob",
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": "glob_lifespan_ref",
+                "collision_filter_props": "glob_filter_ref",
+                "retarget_props": {
+                    "type": "SRetargetInAreaProps",
+                    "enabled": true,
+                    "range": 4.0,
+                    "target_mode": "Close",
+                    "active_if_target_invalid": true,
+                    "attach_to_bloon": true,
+                    "target_spawned_children": "IncludeChildren",
+                    "bloon_filter_props": "glob_filter_ref",
+                    "targeting_props": {
+                        "type": "SBloonTargetingProps",
+                        "enabled": true,
+                        "target_handedness": "None",
+                        "independent_target_override": "First",
+                        "ignore_line_of_sight": false,
+                        "use_bloon_position": false,
+                        "exclusive_filter_props": "glob_filter_ref"
+                    }
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        "regular_slow_ref",
+                        "moabs_slow_ref",
+                        "regular_glue_status_vfx",
+                        "moab_glue_status_vfx",
+                        "dot_on_bad_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": "not enable_glob"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Glue Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "glue_group"
+                },
+                "overrides_groups": "glue_override_groups"
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Glue Strike Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_glue_strike",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 3.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"hose_attack\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "MapOrigin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "proj_glue_strike"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "ability_id"
+                    },
+                    "ability_icon_slot": "glue_strike_ability_icon_slot",
+                    "cooldown_time": "glue_strike_cooldown",
+                    "initial_cooldown_mod": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": true,
+                    "close_tower_ui_if_activated": false,
+                    "duration": {
+                        "type": "STimeDurationProps",
+                        "enabled": true,
+                        "time": "glue_strike_duration"
+                    },
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": true,
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerWeaponEnabledMod",
+                                "enabled": true,
+                                "apply_to_self": true,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "weapon_override_props": {
+                                    "type": "SWeaponOverrideProps",
+                                    "enabled": true,
+                                    "enable_weapon_group_id": {
+                                        "group_str": "\"glue_strike\""
+                                    },
+                                    "disable_non_group_weapons": true,
+                                    "disable_trigger_weapon": true,
+                                    "trigger_weapon_group_id": {
+                                        "group_str": ""
+                                    }
+                                },
+                                "Simulation::Properties::SPropertyModifier::group_props": {
+                                    "type": "SModifierGroupProps",
+                                    "enabled": true,
+                                    "group": {
+                                        "group_str": "\"glue_strike\""
+                                    },
+                                    "overrides_groups": []
+                                }
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "glue_strike_duration"
+                            },
+                            "tower_filter_props": {
+                                "type": "SInclusiveTowerFilterProps",
+                                "enabled": true,
+                                "include_types": "GlueGunner",
+                                "include_kinds": "None",
+                                "include_category": "None",
+                                "include_area_types": "None",
+                                "include_placed_area_types": "None",
+                                "include_must_have_weapon": false,
+                                "include_must_have_ability": false,
+                                "include_mod_groups": [],
+                                "include_target_mode": "None",
+                                "include_any_combo": false
+                            }
+                        }
+                    ],
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": "glue_radius_visual_index",
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": true
+                        },
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": "glue_strike_visual_index",
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": true
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": "glue_strike_audio_index"
+                    }
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"glue_strike\""
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Glue Strike",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "999",
+                "infinite_collision_radius": true,
+                "damage": 0.0,
+                "damage_type": "Acid",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "-1",
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.5
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "type_exclusion",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": "glue_strike_mod_on_contact_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Splatter AoE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "aoe_radius",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Acid",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "aoe_pierce",
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": "untargetable_bloons_ref",
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": true,
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 0,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": true,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "bloon_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "glob_ref"
+                        }
+                    ]
+                },
+                "modify_bloon_props": "all_modifiers_ref",
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": "enable_super_glue",
+                    "damage_adjust_filters": [
+                        "extra_damage_to_moabs_ref"
+                    ]
+                },
+                "vfx_on_spawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 0,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Glue Lifespan",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "bloon_speed_mod_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "bloon_speed_mod_duration"
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Glue MOAB Lifespan",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "bloon_speed_mod_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "bloon_speed_mod_duration / 2"
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Untargetable Bloons",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "type_exclusion",
+                "exclude_features": "exclusion_features",
+                "exclude_status": "None",
+                "exclude_mod_groups": "exclusion_mod_groups",
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Regular Slow",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": "bloon_speed_mod",
+                    "Simulation::Properties::SPropertyModifier::group_props": "regular_glue_mod_group_ref"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": "corrosive_glue",
+                    "interval": "dot_interval",
+                    "amount": "dot_damage",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_lifespan_ref",
+                "bloon_filter_props": "exclude_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "MOAB Class Slow",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "moab_glue or corrosive_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": "moab_glue or corrosive_glue",
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": "moab_speed_mod",
+                    "Simulation::Properties::SPropertyModifier::group_props": "moab_glue_mod_group_ref"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": "corrosive_glue",
+                    "interval": "dot_interval",
+                    "amount": "dot_damage",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_lifespan_moab_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Include MOAB Class",
+            "props": {
+                "type": "SInclusiveBloonFilterProps",
+                "enabled": true,
+                "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "include_features": "None",
+                "include_status": "None",
+                "include_mod_groups": [],
+                "chance": 1.0,
+                "only_sent_bloons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Exclude MOAB Class",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Ceramics Extra DoT",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_liquifier and not enable_solver",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "Simulation::Properties::SPropertyModifier::group_props": "regular_glue_mod_group_ref"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": true,
+                    "interval": "dot_interval",
+                    "amount": "1",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_lifespan_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "MOAB Extra DoT",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_solver",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "Simulation::Properties::SPropertyModifier::group_props": "moab_glue_mod_group_ref"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": true,
+                    "interval": "dot_interval",
+                    "amount": "1",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_lifespan_moab_ref",
+                "bloon_filter_props": "include_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "MOAB/DDT Immobilize",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_super_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "Simulation::Properties::SPropertyModifier::group_props": {
+                        "type": "SModifierGroupProps",
+                        "enabled": true,
+                        "group": {
+                            "group_str": "\"immobilize\""
+                        },
+                        "overrides_groups": []
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 5.0
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "BFB Immobilize",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_super_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.07999999821186066,
+                    "Simulation::Properties::SPropertyModifier::group_props": {
+                        "type": "SModifierGroupProps",
+                        "enabled": true,
+                        "group": {
+                            "group_str": "\"immobilize\""
+                        },
+                        "overrides_groups": []
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 2.0
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "BFB",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "ZOMG Immobilize",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_super_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.1599999964237213,
+                    "Simulation::Properties::SPropertyModifier::group_props": {
+                        "type": "SModifierGroupProps",
+                        "enabled": true,
+                        "group": {
+                            "group_str": "\"immobilize\""
+                        },
+                        "overrides_groups": []
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "ZOMG",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "Regular Glue Status VFX",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "bloon_glue_status",
+                    "Simulation::Properties::SPropertyModifier::group_props": "regular_glue_mod_group_ref"
+                },
+                "lifespan_props": "glue_lifespan_ref",
+                "bloon_filter_props": "exclude_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "MOAB Glue Status VFX",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "corrosive_glue or moab_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "bloon_glue_status",
+                    "Simulation::Properties::SPropertyModifier::group_props": "moab_glue_mod_group_ref"
+                },
+                "lifespan_props": "glue_lifespan_moab_ref",
+                "bloon_filter_props": "include_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "GStrike Lifespan",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "glue_strike_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "bloon_speed_mod_duration * glue_strike_glue_duration_multiplier"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "GStrike MOAB Lifespan",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "glue_strike_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "bloon_speed_mod_duration / 2  * glue_strike_glue_duration_multiplier"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Extra Damage to MOABs",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": true,
+                "damage_set": -1.0,
+                "damage_modifier": 100.0,
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": "include_moabs_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "Glob Lifespan",
+            "props": {
+                "type": "SLifespanGlobProps",
+                "enabled": true,
+                "primary_lifespan": 24.0,
+                "secondary_lifespan": 5.0,
+                "layers": "bloon_speed_mod_layers",
+                "drops": 2
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "Glob Single Frame Lifespan",
+            "props": {
+                "type": "SLifespanSingleFrameProps",
+                "enabled": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "Glob Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": "exclusion_mod_groups",
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 48,
+            "name": "GStrike Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "glue_strike_group"
+                },
+                "overrides_groups": "glue_strike_override_groups"
+            }
+        },
+        {
+            "type": 4,
+            "id": 49,
+            "name": "GStrike Regular DmgAdj",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonDamageAdjustMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "damage_adjust_props": {
+                        "type": "SBloonDamageAdjustProps",
+                        "enabled": true,
+                        "damage_increment": "glue_strike_extra_damage"
+                    }
+                },
+                "lifespan_props": "glue_strike_lifespan_ref",
+                "bloon_filter_props": "exclude_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 50,
+            "name": "GStrike MOAB Class DmgAdj",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonDamageAdjustMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "damage_adjust_props": {
+                        "type": "SBloonDamageAdjustProps",
+                        "enabled": true,
+                        "damage_increment": "glue_strike_extra_damage"
+                    }
+                },
+                "lifespan_props": "glue_strike_lifespan_moab_ref",
+                "bloon_filter_props": "include_moabs_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "DoT on BADs",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "Simulation::Properties::SPropertyModifier::group_props": "moab_glue_mod_group_ref"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": "super_glue or corrosive_glue",
+                    "interval": "dot_interval",
+                    "amount": "dot_damage",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_lifespan_moab_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "BAD",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 51,
+            "name": "All Modifiers",
+            "props": {
+                "type": "SModifyBloonOnContactProps",
+                "enabled": true,
+                "modify_target_only": false,
+                "apply_even_if_not_damaged": false,
+                "bloon_modifier_must_inherit_age": false,
+                "bloon_modifier_props": [
+                    "regular_slow_ref",
+                    "moabs_slow_ref",
+                    "moabddt_immobilize_ref",
+                    "bfb_immobilize_ref",
+                    "zomg_immobilize_ref",
+                    "ceramics_extra_dot_ref",
+                    "moab_extra_dot_ref",
+                    "dot_on_bad_ref",
+                    "regular_glue_status_vfx",
+                    "moab_glue_status_vfx"
+                ],
+                "override_apply_even_if_not_damaged_by_bloon_mod": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Regular Super Glue Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "\"super_glue\""
+                },
+                "overrides_groups": "glue_override_groups"
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "MOAB Class Super Glue Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "\"super_glue_moab\""
+                },
+                "overrides_groups": "glue_override_groups"
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Glue Stike Remove Sharp",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonImmunityRemoveMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp|Shatter|Cold|Energy|Plasma"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Lead|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Glue Stike MOD On Contact",
+            "props": {
+                "type": "SModifyBloonOnContactProps",
+                "enabled": true,
+                "modify_target_only": false,
+                "apply_even_if_not_damaged": false,
+                "bloon_modifier_must_inherit_age": false,
+                "bloon_modifier_props": [
+                    "glue_strike_mod_ref",
+                    "glue_strike_moabclass_mod_ref",
+                    "glue_strike_status_mod_ref",
+                    "glue_strike_status_moab_class_mod_ref",
+                    "glue_strike_moab_dmg_adj_ref",
+                    "glue_strike_regular_dmg_adj_ref",
+                    "glue_strike_remove_sharp_ref"
+                ],
+                "override_apply_even_if_not_damaged_by_bloon_mod": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 52,
+            "name": "Glue Stike Modifier",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": "glue_strike_speed_mod",
+                    "Simulation::Properties::SPropertyModifier::group_props": "glue_strike_mod_group"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": "corrosive_glue",
+                    "interval": "dot_interval",
+                    "amount": "dot_damage",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_strike_lifespan_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": "glue_strike_exclusion_groups",
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 53,
+            "name": "Glue Strike MOABClass Modifier",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "corrosive_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": 1.0,
+                    "Simulation::Properties::SPropertyModifier::group_props": "glue_strike_mod_group"
+                },
+                "effector_props": {
+                    "type": "SBloonDoTProps",
+                    "enabled": true,
+                    "interval": "dot_interval",
+                    "amount": "dot_damage",
+                    "damage_type": "Acid",
+                    "damage_distribution_mode": "ChildrenIfAllowed"
+                },
+                "lifespan_props": "glue_strike_lifespan_moab_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": "glue_strike_exclusion_groups",
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 54,
+            "name": "Glue Strike Status Modifier",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Glue",
+                    "Simulation::Properties::SPropertyModifier::group_props": "glue_strike_mod_group"
+                },
+                "lifespan_props": "glue_strike_lifespan_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": "glue_strike_exclusion_groups",
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 55,
+            "name": "Glue Strike MOABClass Status Modifier",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "moab_glue or corrosive_glue",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Glue",
+                    "Simulation::Properties::SPropertyModifier::group_props": "glue_strike_mod_group"
+                },
+                "lifespan_props": "glue_strike_lifespan_moab_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": "glue_strike_exclusion_groups",
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        }
+    ]
+}
