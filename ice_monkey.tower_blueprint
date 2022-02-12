@@ -1,0 +1,3626 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "tower_range",
+            "variable": {
+                "type": "Float",
+                "value": 20.0
+            }
+        },
+        {
+            "key": "main_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 2.4000000953674318
+            }
+        },
+        {
+            "key": "main_exlude_target_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "freeze_nearby_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "freeze_nearby",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "freeze_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "freeze_projectile_radius",
+            "variable": {
+                "type": "Float",
+                "value": 20.0
+            }
+        },
+        {
+            "key": "freeze_projectile_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "freeze_projectile_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Cold"
+            }
+        },
+        {
+            "key": "freeze_projectile_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 40
+            }
+        },
+        {
+            "key": "freeze_projectile_visual",
+            "variable": {
+                "type": "ProjectileVisualType",
+                "value": 0
+            }
+        },
+        {
+            "key": "freeze_projectile_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 0.44999998807907107
+            }
+        },
+        {
+            "key": "freeze_layers",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "freeze_mod_type",
+            "variable": {
+                "type": "PropertyModifierType",
+                "value": "Exclusive"
+            }
+        },
+        {
+            "key": "freeze_mod_speed",
+            "variable": {
+                "type": "Float",
+                "value": -1.0
+            }
+        },
+        {
+            "key": "freeze_mod_duration",
+            "variable": {
+                "type": "Float",
+                "value": 1.5
+            }
+        },
+        {
+            "key": "freeze_mod_ignore_status",
+            "variable": {
+                "type": "BloonStatus",
+                "value": "Frozen"
+            }
+        },
+        {
+            "key": "freeze_mod_ignore_bloon_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "permafrost_mod_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "permafrost_mod_speed",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "artic_wind_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "artic_wind_mod_group",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "artic_wind_group",
+            "variable": {
+                "type": "String",
+                "value": "artic_wind"
+            }
+        },
+        {
+            "key": "freeze_group",
+            "variable": {
+                "type": "String",
+                "value": "freeze"
+            }
+        },
+        {
+            "key": "freeze_mode_group",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "permafrost_group",
+            "variable": {
+                "type": "String",
+                "value": "permafrost"
+            }
+        },
+        {
+            "key": "permafrost_mode_group",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "ice_shards_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shard",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "cryo_cannon_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "cryo_cannon",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "freeze_bomb",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "freeze_bomb_aoe",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "embrilttlement_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "embrilttlement_time",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "snowstorm_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "snowstorm",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "snowstorm_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 30.0
+            }
+        },
+        {
+            "key": "freeze_all",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "snowstorm_mod_duration",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "icicles_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "icicles",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "icicle_damage",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "icicle_size",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "enable_icicle_impale",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "freeze_mod_exclude_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "White|Zebra|MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "freeze_bomb_aoe_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "ambient_snowfall_vfx",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "icicles_bloon_filter",
+            "variable": {
+                "type": "Node",
+                "value": 72
+            }
+        },
+        {
+            "key": "permafrost_moab_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "embrilttlement_damage_mod",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "enable_absolute_zero",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "cryo_cannon_reload",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "icicle_impale_exc_bloons",
+            "variable": {
+                "type": "BloonType",
+                "value": "MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "moab_class_freeze_timescale",
+            "variable": {
+                "type": "Float",
+                "value": 0.25
+            }
+        },
+        {
+            "key": "ZOMG_speed_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "MOAB_speed_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "icicle_impale_mods_ref",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "icicle_impale_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "ignore_immunities",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "arctic_wind_slow",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "absolute_zero_attack_speed_mod",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "absolute_zero_visual_mod",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "freeze_bomb_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 30.0
+            }
+        },
+        {
+            "key": "icicles_type_filter",
+            "variable": {
+                "type": "BloonType",
+                "value": "White|Zebra"
+            }
+        },
+        {
+            "key": "snowstorm_mod_duration_secondary",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "snowstorm_ability_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "ability_id",
+            "variable": {
+                "type": "String",
+                "value": "snowstorm"
+            }
+        },
+        {
+            "key": "snowstorm_initial_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "moab_class_freeze_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.5
+            }
+        },
+        {
+            "key": "icicle_exclude_target_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "freeze_mod_freeze_ignore_bloon_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "embrittlement_remove_camo_regen_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "permafrost_moab_ref",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "embrittlement_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "embrittlement_remove_sharp_ref",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "ice_shards_ref",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "permafrost_speed_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "freeze_still_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "freeze_frozen_ref",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "freeze_add_sharp_immunity_ref",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "freezeall_stillstate_ref",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "freezeall_frozenstate_ref",
+            "variable": {
+                "type": "Node",
+                "value": 45
+            }
+        },
+        {
+            "key": "freezeall_stillstate_white_ref",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "freezeall_frozenstate_white_ref",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "freezeall_stillstate_camos_ref",
+            "variable": {
+                "type": "Node",
+                "value": 48
+            }
+        },
+        {
+            "key": "freezeall_frozenstate_camos_ref",
+            "variable": {
+                "type": "Node",
+                "value": 49
+            }
+        },
+        {
+            "key": "freezeall_addsharp_ref",
+            "variable": {
+                "type": "Node",
+                "value": 50
+            }
+        },
+        {
+            "key": "freezeall_addsharp_others_ref",
+            "variable": {
+                "type": "Node",
+                "value": 51
+            }
+        },
+        {
+            "key": "freezeall_addsharp_camo_ref",
+            "variable": {
+                "type": "Node",
+                "value": 52
+            }
+        },
+        {
+            "key": "freezeall_MOAB_speed_ref",
+            "variable": {
+                "type": "Node",
+                "value": 53
+            }
+        },
+        {
+            "key": "freezeall_ZOMG_speed_ref",
+            "variable": {
+                "type": "Node",
+                "value": 54
+            }
+        },
+        {
+            "key": "freezeall_frozen_MOAB_ref",
+            "variable": {
+                "type": "Node",
+                "value": 55
+            }
+        },
+        {
+            "key": "snowstorm_lifespan_ref",
+            "variable": {
+                "type": "Node",
+                "value": 58
+            }
+        },
+        {
+            "key": "snowstorm_lifespan_secondary_ref",
+            "variable": {
+                "type": "Node",
+                "value": 59
+            }
+        },
+        {
+            "key": "camo_mod_bloontypes",
+            "variable": {
+                "type": "BloonType",
+                "value": "Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic"
+            }
+        },
+        {
+            "key": "main_freeze_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 60
+            }
+        },
+        {
+            "key": "permafrost_slow_ignore_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "BAD"
+            }
+        },
+        {
+            "key": "permafrost_slow_filter",
+            "variable": {
+                "type": "Node",
+                "value": 61
+            }
+        },
+        {
+            "key": "freeze_bomb_icicles_ref",
+            "variable": {
+                "type": "Node",
+                "value": 62
+            }
+        },
+        {
+            "key": "freeze_bomb_impale_ZOMG_ref",
+            "variable": {
+                "type": "Node",
+                "value": 63
+            }
+        },
+        {
+            "key": "freeze_bomb_impale_MOABS_ref",
+            "variable": {
+                "type": "Node",
+                "value": 64
+            }
+        },
+        {
+            "key": "freeze_bomb_permafrost_ref",
+            "variable": {
+                "type": "Node",
+                "value": 65
+            }
+        },
+        {
+            "key": "create_icicles_ref",
+            "variable": {
+                "type": "Node",
+                "value": 66
+            }
+        },
+        {
+            "key": "freeze_bomb_frozen_status_ref",
+            "variable": {
+                "type": "Node",
+                "value": 67
+            }
+        },
+        {
+            "key": "freeze_bomb_sharp_immunity_ref",
+            "variable": {
+                "type": "Node",
+                "value": 68
+            }
+        },
+        {
+            "key": "freeze_bomb_frozen_MOAB_ref",
+            "variable": {
+                "type": "Node",
+                "value": 69
+            }
+        },
+        {
+            "key": "freeze_bomb_modify",
+            "variable": {
+                "type": "Node",
+                "value": 70
+            }
+        },
+        {
+            "key": "freeze_bomb_still_status_ref",
+            "variable": {
+                "type": "Node",
+                "value": 71
+            }
+        },
+        {
+            "key": "show_icicle_visual_on_spawn",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "icicle_collision_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 72
+            }
+        },
+        {
+            "key": "arctic_wind_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 73
+            }
+        },
+        {
+            "key": "freeze_all_projectile_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Cold"
+            }
+        },
+        {
+            "key": "ability_group_id",
+            "variable": {
+                "type": "Node",
+                "value": 74
+            }
+        },
+        {
+            "key": "snowstorm_group",
+            "variable": {
+                "type": "String",
+                "value": "snowstorm_group"
+            }
+        },
+        {
+            "key": "absolute_zero_group",
+            "variable": {
+                "type": "String",
+                "value": "absolute_zero_group"
+            }
+        },
+        {
+            "key": "freeze_all_moabclass_staus_ref",
+            "variable": {
+                "type": "Node",
+                "value": 76
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_IceMonkey",
+            "description": "LOC_TOWER_DESC_IceMonkey",
+            "cost": 500.0,
+            "unlock_cost_monkey_money": 25.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "IceMonkey",
+                "tower_category": "Primary",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": "tower_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "freeze_nearby",
+                    "cryo_cannon",
+                    "snowstorm"
+                ],
+                "mod_provider_props": "arctic_wind_mod_ref",
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": "artic_wind_enabled",
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false
+                        }
+                    },
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": "ambient_snowfall_vfx",
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Permafrost",
+            "description": "LOC_UPGRADE_DESC_Permafrost",
+            "parent_id": 0,
+            "cost": 100.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "permafrost_mod_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Metal_Freeze",
+            "description": "LOC_UPGRADE_DESC_Metal_Freeze",
+            "parent_id": 1,
+            "cost": 300.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "freeze_mod_ignore_bloon_types",
+                    "expression": "x&~EBloonType.Lead"
+                },
+                {
+                    "key": "freeze_projectile_damage_type",
+                    "expression": "x | EDamageType.Glacier"
+                },
+                {
+                    "key": "freeze_all_projectile_damage_type",
+                    "expression": "x | EDamageType.Glacier"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Ice_Shards",
+            "description": "LOC_UPGRADE_DESC_Ice_Shards",
+            "parent_id": 2,
+            "cost": 1500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "ice_shards_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "tower_range",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "freeze_projectile_radius",
+                    "expression": "x+5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Embrittlement",
+            "description": "LOC_UPGRADE_DESC_Embrittlement",
+            "parent_id": 3,
+            "cost": 3200.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "embrilttlement_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "main_exlude_target_features",
+                    "expression": "x &~ EBloonFeatures.Camo"
+                },
+                {
+                    "key": "freeze_mod_ignore_bloon_types",
+                    "expression": "x &~ EBloonType.MOAB &~ EBloonType.BFB &~ EBloonType.ZOMG &~ EBloonType.DDT &~ EBloonType.BAD"
+                },
+                {
+                    "key": "ignore_immunities",
+                    "expression": "x | EBloonType.White | EBloonType.Zebra"
+                },
+                {
+                    "key": "freeze_mod_exclude_types",
+                    "expression": "x &~ EBloonType.White &~ EBloonType.Zebra"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Super_Brittle",
+            "description": "LOC_UPGRADE_DESC_Super_Brittle",
+            "parent_id": 4,
+            "cost": 28000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "permafrost_moab_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "freeze_mod_ignore_bloon_types",
+                    "expression": "x & ~(EBloonType.MOAB | EBloonType.BFB | EBloonType.ZOMG | EBloonType.DDT | EBloonType.BAD)"
+                },
+                {
+                    "key": "embrilttlement_time",
+                    "expression": "3"
+                },
+                {
+                    "key": "main_reload_time",
+                    "expression": "x - (t * 0.1)"
+                },
+                {
+                    "key": "ignore_immunities",
+                    "expression": "x | EBloonType.White | EBloonType.Zebra"
+                },
+                {
+                    "key": "embrilttlement_damage_mod",
+                    "expression": "4"
+                },
+                {
+                    "key": "freeze_mod_freeze_ignore_bloon_types",
+                    "expression": "x & ~(EBloonType.MOAB | EBloonType.BFB | EBloonType.ZOMG | EBloonType.DDT )"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Enhanced_Freeze",
+            "description": "LOC_UPGRADE_DESC_Enhanced_Freeze",
+            "parent_id": 0,
+            "cost": 225.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "x - t*0.25"
+                },
+                {
+                    "key": "freeze_mod_duration",
+                    "expression": "2.2"
+                },
+                {
+                    "key": "cryo_cannon_reload",
+                    "expression": "x - t*0.25"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Deep_Freeze",
+            "description": "LOC_UPGRADE_DESC_Deep_Freeze",
+            "parent_id": 6,
+            "cost": 350.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "freeze_layers",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Arctic_Wind",
+            "description": "LOC_UPGRADE_DESC_Arctic_Wind",
+            "parent_id": 7,
+            "cost": 2900.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "artic_wind_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "ambient_snowfall_vfx",
+                    "expression": "false"
+                },
+                {
+                    "key": "freeze_projectile_pierce",
+                    "expression": "x + 60"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Snowstorm",
+            "description": "LOC_UPGRADE_DESC_Snowstorm",
+            "parent_id": 8,
+            "cost": 3000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "snowstorm_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "tower_range",
+                    "expression": "30"
+                },
+                {
+                    "key": "freeze_projectile_radius",
+                    "expression": "30"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Absolute_Zero",
+            "description": "LOC_UPGRADE_DESC_Absolute_Zero",
+            "parent_id": 9,
+            "cost": 20000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "permafrost_moab_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "freeze_mod_ignore_bloon_types",
+                    "expression": "x & ~(EBloonType.MOAB | EBloonType.BFB | EBloonType.ZOMG | EBloonType.DDT )"
+                },
+                {
+                    "key": "enable_absolute_zero",
+                    "expression": "true"
+                },
+                {
+                    "key": "tower_range",
+                    "expression": "40"
+                },
+                {
+                    "key": "freeze_mod_duration",
+                    "expression": "3"
+                },
+                {
+                    "key": "freeze_layers",
+                    "expression": "x + 2"
+                },
+                {
+                    "key": "moab_class_freeze_timescale",
+                    "expression": "1"
+                },
+                {
+                    "key": "arctic_wind_slow",
+                    "expression": "0.3"
+                },
+                {
+                    "key": "freeze_projectile_radius",
+                    "expression": "40"
+                },
+                {
+                    "key": "snowstorm_mod_duration_secondary",
+                    "expression": "10"
+                },
+                {
+                    "key": "snowstorm_mod_duration",
+                    "expression": "10"
+                },
+                {
+                    "key": "freeze_projectile_pierce",
+                    "expression": "x + 200"
+                },
+                {
+                    "key": "snowstorm_ability_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "ability_id",
+                    "expression": "\"absolute_zero\""
+                },
+                {
+                    "key": "snowstorm_cooldown",
+                    "expression": "20"
+                },
+                {
+                    "key": "freeze_all_projectile_damage_type",
+                    "expression": "x | EDamageType.Glacier"
+                },
+                {
+                    "key": "ability_group_id",
+                    "expression": "75"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Larger_Radius",
+            "description": "LOC_UPGRADE_DESC_Larger_Radius",
+            "parent_id": 0,
+            "cost": 100.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "tower_range",
+                    "expression": "x+7"
+                },
+                {
+                    "key": "freeze_projectile_radius",
+                    "expression": "x+7"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Re-Freeze",
+            "description": "LOC_UPGRADE_DESC_Re-Freeze",
+            "parent_id": 11,
+            "cost": 200.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "freeze_mod_ignore_status",
+                    "expression": "x&~EBloonStatus.Frozen"
+                },
+                {
+                    "key": "freeze_mod_type",
+                    "expression": "EPropertyModifierType.Stack"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Cryo_Cannon",
+            "description": "LOC_UPGRADE_DESC_Cryo_Cannon",
+            "parent_id": 12,
+            "cost": 1750.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "freeze_nearby_enabled",
+                    "expression": "false"
+                },
+                {
+                    "key": "cryo_cannon_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "tower_range",
+                    "expression": "46"
+                },
+                {
+                    "key": "freeze_projectile_damage",
+                    "expression": "x + 1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Icicles",
+            "description": "LOC_UPGRADE_DESC_Icicles",
+            "parent_id": 13,
+            "cost": 2000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "icicles_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Icicle_Impale",
+            "description": "LOC_UPGRADE_DESC_Icicle_Impale",
+            "parent_id": 14,
+            "cost": 30000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "permafrost_moab_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "freeze_mod_ignore_bloon_types",
+                    "expression": "x & ~(EBloonType.White | EBloonType.Zebra | EBloonType.MOAB | EBloonType.BFB | EBloonType.ZOMG | EBloonType.DDT | EBloonType.BAD)"
+                },
+                {
+                    "key": "icicle_size",
+                    "expression": "6"
+                },
+                {
+                    "key": "enable_icicle_impale",
+                    "expression": "true"
+                },
+                {
+                    "key": "cryo_cannon_reload",
+                    "expression": "x - t * 0.25"
+                },
+                {
+                    "key": "icicle_impale_exc_bloons",
+                    "expression": "x &~ (EBloonType.MOAB |EBloonType.ZOMG | EBloonType.BFB | EBloonType.DDT | EBloonType.BAD)"
+                },
+                {
+                    "key": "ignore_immunities",
+                    "expression": "x | EBloonType.White | EBloonType.Zebra"
+                },
+                {
+                    "key": "icicles_type_filter",
+                    "expression": "x ~ (EBloonType.White | EBloonType.Zebra)"
+                },
+                {
+                    "key": "freeze_mod_exclude_types",
+                    "expression": "x ~ (EBloonType.White | EBloonType.Zebra)"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Freeze Nearby",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "freeze_nearby_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "main_reload_time",
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "freeze_mod_ignore_bloon_types",
+                        "exclude_features": "main_exlude_target_features",
+                        "exclude_status": "freeze_mod_ignore_status",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "freeze_projectile"
+                },
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 0,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Freeze",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "freeze_projectile_radius",
+                "infinite_collision_radius": false,
+                "damage": "freeze_projectile_damage",
+                "damage_type": "freeze_projectile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "freeze_projectile_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_immunities",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_ignore_bloon_types",
+                    "exclude_features": "main_exlude_target_features",
+                    "exclude_status": "freeze_mod_ignore_status",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        "freeze_still_ref",
+                        "permafrost_speed_ref",
+                        "freeze_frozen_ref",
+                        "ice_shards_ref",
+                        "freeze_add_sharp_immunity_ref",
+                        "embrittlement_remove_camo_regen_ref",
+                        "embrittlement_damage_ref",
+                        "permafrost_moab_ref",
+                        "embrittlement_remove_sharp_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "sfx_on_spawn": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "Freeze Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "freeze_group"
+                },
+                "overrides_groups": [
+                    54441925,
+                    27448379
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Permafrost Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "permafrost_group"
+                },
+                "overrides_groups": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Shard",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 1.0,
+                "damage_type": "Shatter",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 3.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.07999999821186066
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "main_exlude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 250.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Cryo Cannon",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "cryo_cannon_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "cryo_cannon_reload",
+                "emission_delay": 0.13300000131130219,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": "\"\""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "icicle_impale_exc_bloons",
+                        "exclude_features": "main_exlude_target_features",
+                        "exclude_status": "freeze_mod_ignore_status",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 1,
+                    "spray_angle": 0.0,
+                    "projectile_props": "freeze_bomb"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Freeze Bomb",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 4.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "freeze_projectile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Damage|Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_immunities",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.20000000298023225
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "main_exlude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "freeze_bomb_aoe"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 300.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Freeze Bomb AoE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 20.0,
+                "infinite_collision_radius": false,
+                "damage": "freeze_projectile_damage",
+                "damage_type": "freeze_projectile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "freeze_bomb_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_immunities",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_ignore_bloon_types",
+                    "exclude_features": "main_exlude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": "create_icicles_ref",
+                "modify_bloon_props": "freeze_bomb_modify",
+                "damage_props": "icicle_impale_damage_ref",
+                "sfx_on_spawn": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Artic Wind Mod Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "artic_wind_group"
+                },
+                "overrides_groups": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Snowstorm",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "snowstorm_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack2\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "freeze_all"
+                },
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 8,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                ],
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "ability_id"
+                    },
+                    "ability_icon_slot": "snowstorm_ability_icon_slot",
+                    "cooldown_time": "snowstorm_cooldown",
+                    "initial_cooldown_mod": "snowstorm_initial_cooldown",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "mod_provider": {
+                        "type": "SModProviderProps",
+                        "enabled": true,
+                        "parent_dependant": true,
+                        "modifier_props": [
+                            "absolute_zero_attack_speed_mod",
+                            "absolute_zero_visual_mod"
+                        ]
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 9
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Freeze All",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 0.0,
+                "infinite_collision_radius": true,
+                "damage": "freeze_projectile_damage",
+                "damage_type": "freeze_all_projectile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "White|Zebra",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        "freezeall_stillstate_ref",
+                        "freezeall_frozenstate_ref",
+                        "freezeall_stillstate_white_ref",
+                        "freezeall_frozenstate_white_ref",
+                        "freezeall_stillstate_camos_ref",
+                        "freezeall_frozenstate_camos_ref",
+                        "freezeall_addsharp_ref",
+                        "freezeall_addsharp_others_ref",
+                        "freezeall_addsharp_camo_ref",
+                        "permafrost_moab_ref",
+                        "freezeall_MOAB_speed_ref",
+                        "freezeall_ZOMG_speed_ref",
+                        "freezeall_frozen_MOAB_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Icicles",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "icicle_size",
+                "infinite_collision_radius": false,
+                "damage": "icicle_damage",
+                "damage_type": "Sharp",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 3.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": "0",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": "show_icicle_visual_on_spawn",
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": 2,
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "collision_filter_props": "icicle_collision_filter_ref",
+                "clear_collided_with_props": {
+                    "type": "SClearCollidedWithProps",
+                    "enabled": true,
+                    "interval_time": 0.20000000298023225
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                },
+                "attach_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "icicles_type_filter",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Exclusive Bloon Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "freeze_mod_exclude_types",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Modify Bloon On Contact",
+            "props": {
+                "type": "SModifyBloonOnContactProps",
+                "enabled": "enable_icicle_impale",
+                "modify_target_only": false,
+                "apply_even_if_not_damaged": false,
+                "bloon_modifier_must_inherit_age": false,
+                "bloon_modifier_props": [
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": "MOAB_speed_mod_ref",
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.5"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "MOAB",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": "enable_icicle_impale",
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": "MOAB_speed_mod_ref",
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.25"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "BFB",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": "enable_icicle_impale",
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": "ZOMG_speed_mod_ref",
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.1"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "ZOMG|DDT",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": {
+                            "type": "SBloonStatusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "status": "Frozen"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.5"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "MOAB",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": {
+                            "type": "SBloonStatusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "status": "Frozen"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.25"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "BFB",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": {
+                            "type": "SBloonStatusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "status": "Frozen"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": "freeze_mod_duration * 0.1"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "ZOMG|DDT",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        },
+                        "only_apply_filter_once": false
+                    }
+                ],
+                "override_apply_even_if_not_damaged_by_bloon_mod": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Damage Adjust",
+            "props": {
+                "type": "SDamageAdjustProps",
+                "enabled": true,
+                "damage_adjust_filters": [
+                    {
+                        "type": "SDamageAdjustFilterProps",
+                        "enabled": "enable_icicle_impale",
+                        "damage_set": 70.0,
+                        "damage_modifier": 0.0,
+                        "damage_multiplier": 1.0,
+                        "damage_modifier_non_multiplicable": 0.0,
+                        "inclusive_filter_props": {
+                            "type": "SInclusiveBloonFilterProps",
+                            "enabled": true,
+                            "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                            "include_features": "None",
+                            "include_status": "None",
+                            "include_mod_groups": [],
+                            "chance": 1.0,
+                            "only_sent_bloons": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Attack Speed Mod",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": true,
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -0.33000001311302187
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 10.0
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "IceMonkey",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "Attack Speed Visual Mod",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": true,
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 10,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 10.0
+                },
+                "inclusive_filter": {
+                    "type": "SInclusiveTowerFilterProps",
+                    "enabled": true,
+                    "include_types": "IceMonkey",
+                    "include_kinds": "None",
+                    "include_category": "None",
+                    "include_area_types": "None",
+                    "include_placed_area_types": "None",
+                    "include_must_have_weapon": false,
+                    "include_must_have_ability": false,
+                    "include_mod_groups": [],
+                    "include_target_mode": "None",
+                    "include_any_combo": false
+                },
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 40.0,
+                    "override_ignore_range": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "ZOMG+ Speed Mod",
+            "props": {
+                "type": "SSnowStormBloonSpeedMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Stack",
+                "mod_instances_limit": 1,
+                "multiplier": 1.0,
+                "use_override_value": true,
+                "override_value": 2.25,
+                "Simulation::Properties::SPropertyModifier::group_props": "ability_group_id"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "MOAB+ Speed Mod",
+            "props": {
+                "type": "SSnowStormBloonSpeedMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Stack",
+                "mod_instances_limit": 1,
+                "multiplier": 1.0,
+                "use_override_value": true,
+                "override_value": 5.0,
+                "Simulation::Properties::SPropertyModifier::group_props": "ability_group_id"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Embrittlement Remove Camo Regen",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "embrilttlement_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonFeaturesRemoveMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "features": "Camo|Regen"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "Camo|Regen",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Permafrost MOAB",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "permafrost_mod_enabled and permafrost_moab_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.75,
+                    "Simulation::Properties::SPropertyModifier::group_props": "permafrost_mode_group"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Embrittlement Damage",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "embrilttlement_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonDamageAdjustMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "damage_adjust_props": {
+                        "type": "SBloonDamageAdjustProps",
+                        "enabled": true,
+                        "damage_increment": "embrilttlement_damage_mod"
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "embrilttlement_time"
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Embrittlement Remove Sharp Immunity",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "embrilttlement_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonImmunityRemoveMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp|Shatter|Cold|Energy|Plasma"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "embrilttlement_time"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_ignore_bloon_types",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "Ice Shards",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "ice_shards_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonAddEmissionOnDeathMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "emission_props": {
+                        "type": "SArcEmissionProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "count": 3,
+                        "spread_angle": 240.0,
+                        "lateral_offset": 0.0,
+                        "inclusive_angle": true,
+                        "spread_evenly": true,
+                        "projectile_props": "shard"
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_freeze_ignore_bloon_types",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Permafrost Speed",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "permafrost_mod_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "permafrost_mod_speed",
+                    "Simulation::Properties::SPropertyModifier::group_props": "permafrost_mode_group"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Freeze Still",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": "main_freeze_filter_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "Freeze Frozen",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": "main_freeze_filter_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "Freeze Add Sharp Immunity",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonImmunityAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": "main_freeze_filter_ref",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "Freeze All Still State",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": "snowstorm_lifespan_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "White|Zebra|MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "Camo",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "Freeze All Frozen State",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen"
+                },
+                "lifespan_props": "snowstorm_lifespan_ref",
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "White|Zebra|MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "Camo",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "FreezeAll Still Whites",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": "snowstorm_lifespan_secondary_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "White|Zebra",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "Freeze All Frozen Whites",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": "snowstorm_lifespan_secondary_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "White|Zebra",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 48,
+            "name": "Freeze All Still Camos",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": "snowstorm_lifespan_secondary_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "camo_mod_bloontypes",
+                    "include_features": "Camo",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 49,
+            "name": "Freeze All Frozen Camos",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen",
+                    "Simulation::Properties::SPropertyModifier::group_props": "freeze_mode_group"
+                },
+                "lifespan_props": "snowstorm_lifespan_secondary_ref",
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "camo_mod_bloontypes",
+                    "include_features": "Camo",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 50,
+            "name": "Freeze All Add Sharp",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonImmunityAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "White|Zebra|MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "Camo",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 51,
+            "name": "Freeze All Add Sharp Others",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonImmunityAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration_secondary"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "White|Zebra|MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 52,
+            "name": "Freeze All Add Sharp Camo",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonImmunityAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Combine",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration_secondary"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "Camo",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 53,
+            "name": "Freeze All MOAB Speed",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod_group_id": "ability_group_id",
+                "mod": "MOAB_speed_mod_ref",
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration_secondary"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 54,
+            "name": "Freeze All ZOMB Speed",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod_group_id": "ability_group_id",
+                "mod": "ZOMG_speed_mod_ref",
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration_secondary"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "ZOMG",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 55,
+            "name": "Freeze All Frozen MOAB",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod_group_id": "ability_group_id",
+                "mod": "freeze_all_moabclass_staus_ref",
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "snowstorm_mod_duration_secondary"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 56,
+            "name": "Snowstorm Lifespan Seconds",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "snowstorm_mod_duration"
+            }
+        },
+        {
+            "type": 4,
+            "id": 57,
+            "name": "Snowstorm Lifespan Seconds Secondary",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "snowstorm_mod_duration_secondary"
+            }
+        },
+        {
+            "type": 4,
+            "id": 58,
+            "name": "Snowstorm Seconds Or Layers",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "freeze_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "snowstorm_mod_duration"
+            }
+        },
+        {
+            "type": 4,
+            "id": 59,
+            "name": "Snowstorm Seconds Or Layers Secondarry ",
+            "props": {
+                "type": "SLifespanSecondsOrLayersProps",
+                "enabled": true,
+                "layers": "freeze_layers",
+                "include_layers_depleted_while_creating": false,
+                "seconds": "snowstorm_mod_duration_secondary"
+            }
+        },
+        {
+            "type": 4,
+            "id": 60,
+            "name": "Main Freeze Bloon Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "freeze_mod_exclude_types",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 61,
+            "name": "Permafrost Slow Bloon Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "permafrost_slow_ignore_types",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 62,
+            "name": "FreezeBombIcicleStatus",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "icicles_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "status": "Icicles"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": "icicles_bloon_filter",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 63,
+            "name": "FreezeBombImpaleZOMG",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_icicle_impale",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": "ZOMG_speed_mod_ref",
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "moab_class_freeze_time"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "ZOMG",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 64,
+            "name": "FreezeBombImpaleMOABS",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "enable_icicle_impale",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": "MOAB_speed_mod_ref",
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "moab_class_freeze_time"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 65,
+            "name": "FreezeBombPermafrost",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": "permafrost_mod_enabled",
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "permafrost_mod_speed",
+                    "Simulation::Properties::SPropertyModifier::group_props": "permafrost_mode_group"
+                },
+                "bloon_filter_props": "permafrost_slow_filter",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 66,
+            "name": "Create Icicle On Contact",
+            "props": {
+                "type": "SCreateProjectileOnContactProps",
+                "enabled": "icicles_enabled",
+                "trigger_on_max_contacts": false,
+                "max_num_contacts": 0,
+                "ammo_count": -1,
+                "on_bloon_destroyed": false,
+                "on_destroyed_by_immunity": false,
+                "on_not_destroyed_by_immunity": false,
+                "attatch_to_bloon": true,
+                "bloon_lifespan_dependent": true,
+                "use_parents_collision_history": false,
+                "refund_original_pierce_if_not_created": false,
+                "min_time_between_emissions": 0.0,
+                "extra_pierce_cost_per_emission": 0,
+                "target_spawned_children": "IncludeChildren",
+                "bloon_filter_props": "icicles_bloon_filter",
+                "emission_props": [
+                    {
+                        "type": "SSingleEmissionProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "spray_angle": 0.0,
+                        "projectile_props": "icicles"
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 67,
+            "name": "Freeze Bomb Frozen Status",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_exclude_types",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 68,
+            "name": "Freeze Bomb Sharp Immunity",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonImmunityAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "damage_type_immunity": "Sharp"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_exclude_types",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 69,
+            "name": "Freeze Bomb Frozen MOAB",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonStatusMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 1,
+                    "status": "Frozen"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "moab_class_freeze_time"
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 70,
+            "name": "Freeze Bomb Bloon Modify",
+            "props": {
+                "type": "SModifyBloonOnContactProps",
+                "enabled": true,
+                "modify_target_only": false,
+                "apply_even_if_not_damaged": false,
+                "bloon_modifier_must_inherit_age": false,
+                "bloon_modifier_props": [
+                    "freeze_bomb_still_status_ref",
+                    "freeze_bomb_permafrost_ref",
+                    "freeze_bomb_frozen_status_ref",
+                    "freeze_bomb_sharp_immunity_ref",
+                    "freeze_bomb_icicles_ref",
+                    "freeze_bomb_impale_ZOMG_ref",
+                    "freeze_bomb_impale_MOABS_ref",
+                    "freeze_bomb_frozen_MOAB_ref"
+                ],
+                "override_apply_even_if_not_damaged_by_bloon_mod": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 71,
+            "name": "Freeze Bomb Still",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": true,
+                "mod": {
+                    "type": "SBloonMotionStateMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "freeze_mod_type",
+                    "mod_instances_limit": 1,
+                    "bloon_motion_state": "Still"
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsOrLayersProps",
+                    "enabled": true,
+                    "layers": "freeze_layers",
+                    "include_layers_depleted_while_creating": false,
+                    "seconds": "freeze_mod_duration"
+                },
+                "bloon_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "freeze_mod_exclude_types",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 72,
+            "name": "Icicle Collision Filter",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "icicle_impale_exc_bloons",
+                "exclude_features": "icicle_exclude_target_features",
+                "exclude_status": "Icicles",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 73,
+            "name": "Arctic Wind Mod",
+            "props": {
+                "type": "SModProviderProps",
+                "enabled": true,
+                "parent_dependant": true,
+                "modifier_props": [
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "artic_wind_enabled",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerPlacementMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "supported_area_addition": "Water"
+                        },
+                        "range_override": {
+                            "type": "SRangeOverrideProps",
+                            "enabled": true,
+                            "override_range": "tower_range+5.0",
+                            "override_ignore_range": false
+                        }
+                    },
+                    {
+                        "type": "SBloonModifierZoneProps",
+                        "enabled": true,
+                        "only_apply_mod_while_parent_valid": false,
+                        "mod": {
+                            "type": "SBloonSpeedMod",
+                            "enabled": "artic_wind_enabled",
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "multiplier": "arctic_wind_slow",
+                            "Simulation::Properties::SPropertyModifier::group_props": "artic_wind_mod_group"
+                        },
+                        "bloon_filter_props": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                            "exclude_features": "main_exlude_target_features",
+                            "exclude_status": "Frozen",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "only_apply_filter_once": false,
+                        "bloon_target_limit": 0,
+                        "use_tower_base_position": true
+                    },
+                    {
+                        "type": "STowerModifierZoneProps",
+                        "enabled": "artic_wind_enabled",
+                        "mod_child_tower_from_parent": false,
+                        "required_target_mode": "None",
+                        "mod": {
+                            "type": "STowerActiveVFXMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "new_active_vfx_props": [
+                                {
+                                    "type": "SActiveVFXProps",
+                                    "enabled": true,
+                                    "vfx_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 7,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    }
+                                }
+                            ]
+                        },
+                        "inclusive_filter": {
+                            "type": "SInclusiveTowerFilterProps",
+                            "enabled": true,
+                            "include_types": "None",
+                            "include_kinds": "None",
+                            "include_category": "None",
+                            "include_area_types": "Land",
+                            "include_placed_area_types": "Water",
+                            "include_must_have_weapon": false,
+                            "include_must_have_ability": false,
+                            "include_mod_groups": [],
+                            "include_target_mode": "None",
+                            "include_any_combo": false
+                        },
+                        "range_override": {
+                            "type": "SRangeOverrideProps",
+                            "enabled": true,
+                            "override_range": "tower_range+5.0",
+                            "override_ignore_range": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 74,
+            "name": "SnowStorm Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "snowstorm_group"
+                },
+                "overrides_groups": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 75,
+            "name": "Absolute Zero Group",
+            "props": {
+                "type": "SModifierGroupProps",
+                "enabled": true,
+                "group": {
+                    "group_str": "absolute_zero_group"
+                },
+                "overrides_groups": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 76,
+            "name": "FA MOABClass Frozen Status Mod",
+            "props": {
+                "type": "SBloonStatusMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Stack",
+                "mod_instances_limit": 1,
+                "status": "Frozen",
+                "Simulation::Properties::SPropertyModifier::group_props": "ability_group_id"
+            }
+        }
+    ]
+}
