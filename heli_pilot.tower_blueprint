@@ -1,0 +1,2292 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "acquire_target_range",
+            "variable": {
+                "type": "Float",
+                "value": 42.0
+            }
+        },
+        {
+            "key": "main_guns",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "main_guns_offset",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "dart_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "dart_vslot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "dart_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "dart_radius",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "dart_speed",
+            "variable": {
+                "type": "Float",
+                "value": 260.0
+            }
+        },
+        {
+            "key": "dart_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 3
+            }
+        },
+        {
+            "key": "dart_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "dart_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Sharp"
+            }
+        },
+        {
+            "key": "proj_emission_ref",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "main_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.5699999928474426
+            }
+        },
+        {
+            "key": "exclude_target_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "flying_modes",
+            "variable": {
+                "type": "TowerTargetMode",
+                "value": "FollowTouch|LockInPlace|Patrol"
+            }
+        },
+        {
+            "key": "fly_speed",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "extra_guns_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "extra_guns",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "extra_guns_offset",
+            "variable": {
+                "type": "Float",
+                "value": 16.0
+            }
+        },
+        {
+            "key": "rotor_blades_ref",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "rotor_blades_radius",
+            "variable": {
+                "type": "Float",
+                "value": 35.0
+            }
+        },
+        {
+            "key": "rotor_blades_reload",
+            "variable": {
+                "type": "Float",
+                "value": 0.15000000596046449
+            }
+        },
+        {
+            "key": "razor_rotor_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "aoe_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "downdraft_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "moab_shove_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "blowback_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "include_moab_filter",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "exclude_moab_filter",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "machine_gun_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "machine_gun",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "machine_gun_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.05000000074505806
+            }
+        },
+        {
+            "key": "machine_gun_proj",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "machine_gun_vslot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "machine_gun_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "machine_gun_proj_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Sharp"
+            }
+        },
+        {
+            "key": "machine_gun_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 5
+            }
+        },
+        {
+            "key": "missiles_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "missile_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "missile_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "missile",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "missile_AoE",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "missile_moab_damage_mod_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "redeploy_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "redeploy",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "support_drop_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "support_drop",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "support_crate",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "cash_crate_min",
+            "variable": {
+                "type": "Float",
+                "value": 4000.0
+            }
+        },
+        {
+            "key": "cash_crate_max",
+            "variable": {
+                "type": "Float",
+                "value": 4000.0
+            }
+        },
+        {
+            "key": "life_crate_min",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "life_crate_max",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "comanche_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "comanche_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "marine_spawner_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "marine_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "default_target_mode",
+            "variable": {
+                "type": "TowerTargetMode",
+                "value": "None"
+            }
+        },
+        {
+            "key": "moab_shove_ref",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "heli_flight_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "shove_moab",
+            "variable": {
+                "type": "Float",
+                "value": -1.3300000429153443
+            }
+        },
+        {
+            "key": "shove_bfb",
+            "variable": {
+                "type": "Float",
+                "value": -1.0
+            }
+        },
+        {
+            "key": "shove_zomg",
+            "variable": {
+                "type": "Float",
+                "value": -0.6700000166893005
+            }
+        },
+        {
+            "key": "rotor_blade_targeting_exclusions",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "missile_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Explosion"
+            }
+        },
+        {
+            "key": "permanent_comanches",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "comanches_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 25.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_HeliPilot",
+            "description": "LOC_TOWER_DESC_HeliPilot",
+            "cost": 900.0,
+            "unlock_cost_monkey_money": 75.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "HeliPilot",
+                "tower_category": "Military",
+                "valid_targeting_modes": "flying_modes",
+                "default_targeting_mode": "default_target_mode",
+                "placement": {
+                    "type": "Rectangle",
+                    "rect_size_x": 23.0,
+                    "rect_size_y": 23.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": "acquire_target_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "\"PropellorMain\"",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "main_guns",
+                    "extra_guns",
+                    "rotor_blades_ref",
+                    "machine_gun",
+                    "missile_launcher",
+                    "redeploy",
+                    "support_drop",
+                    "comanche_launcher",
+                    "marine_spawner"
+                ],
+                "mod_provider_props": "moab_shove_ref",
+                "tower_flight_props": "heli_flight_ref",
+                "active_vfx_props": [
+                    {
+                        "type": "SActiveVFXProps",
+                        "enabled": "downdraft_enabled",
+                        "vfx_props": {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 0,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Quad_Darts",
+            "description": "LOC_UPGRADE_DESC_Quad_Darts",
+            "parent_id": 0,
+            "cost": 600.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "extra_guns_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Pursuit",
+            "description": "LOC_UPGRADE_DESC_Pursuit",
+            "parent_id": 1,
+            "cost": 400.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "flying_modes",
+                    "expression": "x|ETowerTargetMode.Pursuit"
+                },
+                {
+                    "key": "default_target_mode",
+                    "expression": "ETowerTargetMode.Pursuit"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Razor_Rotors",
+            "description": "LOC_UPGRADE_DESC_Razor_Rotors",
+            "parent_id": 2,
+            "cost": 1750.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "razor_rotor_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "aoe_projectile",
+                    "expression": "20"
+                },
+                {
+                    "key": "rotor_blades_reload",
+                    "expression": "0.75"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Apache_Dartship",
+            "description": "LOC_UPGRADE_DESC_Apache_Dartship",
+            "parent_id": 3,
+            "cost": 19600.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "0.4275"
+                },
+                {
+                    "key": "machine_gun_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "missiles_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "main_guns_offset",
+                    "expression": "11"
+                },
+                {
+                    "key": "extra_guns_offset",
+                    "expression": "21"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Apache_Prime",
+            "description": "LOC_UPGRADE_DESC_Apache_Prime",
+            "parent_id": 4,
+            "cost": 45000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "missile_moab_damage_mod_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "machine_gun_vslot",
+                    "expression": "2"
+                },
+                {
+                    "key": "machine_gun_damage",
+                    "expression": "x+4"
+                },
+                {
+                    "key": "machine_gun_pierce",
+                    "expression": "x+6"
+                },
+                {
+                    "key": "dart_vslot",
+                    "expression": "3"
+                },
+                {
+                    "key": "dart_damage",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "dart_pierce",
+                    "expression": "x+20"
+                },
+                {
+                    "key": "dart_damage_type",
+                    "expression": "EDamageType.Unstoppable"
+                },
+                {
+                    "key": "machine_gun_proj_damage_type",
+                    "expression": "EDamageType.Unstoppable"
+                },
+                {
+                    "key": "missile_damage_type",
+                    "expression": "EDamageType.Unstoppable"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Bigger_Jets",
+            "description": "LOC_UPGRADE_DESC_Bigger_Jets",
+            "parent_id": 0,
+            "cost": 300.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "fly_speed",
+                    "expression": "x + 30"
+                },
+                {
+                    "key": "shove_moab",
+                    "expression": "-1.44"
+                },
+                {
+                    "key": "shove_bfb",
+                    "expression": "-1.11"
+                },
+                {
+                    "key": "shove_zomg",
+                    "expression": "-0.78"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_IFR",
+            "description": "LOC_UPGRADE_DESC_IFR",
+            "parent_id": 6,
+            "cost": 450.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "exclude_target_features",
+                    "expression": "x & ~EBloonFeatures.Camo"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Downdraft",
+            "description": "LOC_UPGRADE_DESC_Downdraft",
+            "parent_id": 7,
+            "cost": 3000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_projectile",
+                    "expression": "22"
+                },
+                {
+                    "key": "downdraft_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "rotor_blade_targeting_exclusions",
+                    "expression": "EBloonType.MOAB|EBloonType.BFB|EBloonType.ZOMG|EBloonType.DDT|EBloonType.BAD"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Support_Chinook",
+            "description": "LOC_UPGRADE_DESC_Support_Chinook",
+            "parent_id": 8,
+            "cost": 7000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_guns_offset",
+                    "expression": "22"
+                },
+                {
+                    "key": "extra_guns_offset",
+                    "expression": "14"
+                },
+                {
+                    "key": "redeploy_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "support_drop_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_ABILITY_NAME_Special_Poperations",
+            "description": "LOC_UPGRADE_DESC_Special_Poperations",
+            "parent_id": 9,
+            "cost": 30000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "marine_spawner_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "cash_crate_min",
+                    "expression": "x*2"
+                },
+                {
+                    "key": "cash_crate_max",
+                    "expression": "x*2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Faster_Darts",
+            "description": "LOC_UPGRADE_DESC_Faster_Darts",
+            "parent_id": 0,
+            "cost": 250.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "dart_speed",
+                    "expression": "x * 1.6"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Faster_Firing",
+            "description": "LOC_UPGRADE_DESC_Faster_Firing",
+            "parent_id": 11,
+            "cost": 350.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "x-(x*0.2)"
+                },
+                {
+                    "key": "missile_reload_time",
+                    "expression": "x-(x*0.2)"
+                },
+                {
+                    "key": "machine_gun_reload_time",
+                    "expression": "x-(x*0.2)"
+                },
+                {
+                    "key": "rotor_blades_reload",
+                    "expression": "x-0.03"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_MOAB_Shove",
+            "description": "LOC_UPGRADE_DESC_MOAB_Shove",
+            "parent_id": 12,
+            "cost": 3500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "moab_shove_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Comanche_Defense",
+            "description": "LOC_UPGRADE_DESC_Comanche_Defense",
+            "parent_id": 13,
+            "cost": 8500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "comanche_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "main_guns_offset",
+                    "expression": "21"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Comanche_Commander",
+            "description": "LOC_UPGRADE_DESC_Comanche_Commander",
+            "parent_id": 14,
+            "cost": 35000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "permanent_comanches",
+                    "expression": "true"
+                },
+                {
+                    "key": "comanches_cooldown",
+                    "expression": "1"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "main_guns",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "First",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "main_reload_time",
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_target_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": "proj_emission_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "dart",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "dart_radius",
+                "infinite_collision_radius": false,
+                "damage": "dart_damage",
+                "damage_type": "dart_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "dart_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": "dart_vslot",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "dart_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "dart_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "extra_guns",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "extra_guns_enabled",
+                "targeting_mode_override": "First",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "main_reload_time",
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": false,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_target_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SLinearEmissionProps",
+                    "enabled": true,
+                    "slot": 1,
+                    "count": 2,
+                    "spread_offset": "extra_guns_offset",
+                    "spray_angle": 0.0,
+                    "longitudinal_offset": 0.0,
+                    "centre": true,
+                    "projectile_props": "dart_projectile"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "rotor_blades",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "razor_rotor_enabled or downdraft_enabled",
+                "targeting_mode_override": "Close",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "rotor_blades_reload",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"idle\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "rotor_blade_targeting_exclusions",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 2,
+                    "spray_angle": 0.0,
+                    "projectile_props": "aoe_projectile"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "razor_blade_aoe",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": "razor_rotor_enabled",
+                "collision_radius": "rotor_blades_radius",
+                "infinite_collision_radius": false,
+                "damage": 2.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 10.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Linear Emission",
+            "props": {
+                "type": "SLinearEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "count": 2,
+                "spread_offset": "main_guns_offset",
+                "spray_angle": 0.0,
+                "longitudinal_offset": 0.0,
+                "centre": true,
+                "projectile_props": "dart_projectile"
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "downdraft_aoe",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": "downdraft_enabled",
+                "collision_radius": "rotor_blades_radius",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Sharp",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Damage|Pierce",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "rotor_blade_targeting_exclusions",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        "blowback_mod_ref"
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "blowback_mod",
+            "props": {
+                "type": "SBloonModifierProps",
+                "enabled": true,
+                "propagate_to_children": true,
+                "can_soak_though_moab_class": false,
+                "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                "mod": {
+                    "type": "SBloonBlowbackAddMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "blowback_bloon_props": {
+                        "type": "SBlowbackProps",
+                        "enabled": true,
+                        "chance": 1.0,
+                        "distance_min": 32.0,
+                        "distance_max": 300.0
+                    }
+                },
+                "bloon_filter_props": "exclude_moab_filter",
+                "only_apply_filter_once": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "exclude_moabs",
+            "props": {
+                "type": "SExclusiveBloonFilterProps",
+                "enabled": true,
+                "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "exclude_features": "None",
+                "exclude_status": "None",
+                "exclude_mod_groups": [],
+                "chance": 1.0
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "include_moabs",
+            "props": {
+                "type": "SInclusiveBloonFilterProps",
+                "enabled": true,
+                "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                "include_features": "None",
+                "include_status": "None",
+                "include_mod_groups": [],
+                "chance": 1.0,
+                "only_sent_bloons": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "machine_gun",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "machine_gun_enabled",
+                "targeting_mode_override": "First",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "machine_gun_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack_machine_gun\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_target_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 3,
+                    "spray_angle": 0.0,
+                    "projectile_props": "machine_gun_proj"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "machine_gun_proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 3.0,
+                "infinite_collision_radius": false,
+                "damage": "machine_gun_damage",
+                "damage_type": "machine_gun_proj_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "machine_gun_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": "machine_gun_vslot",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.2240000069141388
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 375.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "missile_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "missiles_enabled",
+                "targeting_mode_override": "First",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "missile_reload_time",
+                "emission_delay": 0.20000000298023225,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack_missiles\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_target_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "target_range_override": {
+                        "type": "SRangeOverrideProps",
+                        "enabled": true,
+                        "override_range": 173.0,
+                        "override_ignore_range": false
+                    }
+                },
+                "emission_props": {
+                    "type": "SLinearEmissionProps",
+                    "enabled": true,
+                    "slot": 4,
+                    "count": 4,
+                    "spread_offset": 10.0,
+                    "spray_angle": 0.0,
+                    "longitudinal_offset": 0.0,
+                    "centre": true,
+                    "projectile_props": "missile"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "missile",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 3.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "missile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.5499999523162842
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": true,
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 0,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": false,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "missile_AoE"
+                        }
+                    ]
+                },
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": true,
+                    "track_new_targets": true,
+                    "range": 173.0,
+                    "ignore_range": false,
+                    "fov": 360.0,
+                    "delay": 0.0,
+                    "max_bounces": 1,
+                    "use_original_target_mode": true,
+                    "target_mode": "None",
+                    "destroy_if_no_target": false,
+                    "use_lifespan_as_range": false,
+                    "use_bloon_bounce_increments": false,
+                    "stop_child_bloons_being_retargeted": false
+                },
+                "sfx_on_contact": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionHomingProps",
+                    "enabled": true,
+                    "speed": 135.0,
+                    "turn_rate": 250.0,
+                    "track_time": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "missile_AoE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 25.0,
+                "infinite_collision_radius": false,
+                "damage": 2.0,
+                "damage_type": "missile_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 40.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 0.10000000149011612
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_target_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": "missile_moab_damage_mod_enabled",
+                            "damage_set": -1.0,
+                            "damage_modifier": 15.0,
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "inclusive_filter_props": "include_moab_filter"
+                        }
+                    ]
+                },
+                "vfx_on_spawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "redeploy",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "redeploy_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"heli_redeploy\""
+                    },
+                    "ability_icon_slot": 0,
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": true,
+                    "priming_states": [
+                        {
+                            "type": "SPrimingStateSelectTowerProps",
+                            "enabled": true,
+                            "tower_filter_props": [
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "MonkeyAce|MonkeyVillage|HeliPilot|BananaFarm|ObynTotem|SentryTower|BuccaneerAircraft|Phoenix|PhoenixLord",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "MonkeyBuccaneer",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_upgrades": {
+                                        "type": "SUpgradeTierProps",
+                                        "enabled": true,
+                                        "paths": [
+                                            0,
+                                            1,
+                                            2
+                                        ],
+                                        "tiers": [
+                                            4,
+                                            5
+                                        ]
+                                    },
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "SuperMonkey",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_upgrades": {
+                                        "type": "SUpgradeTierProps",
+                                        "enabled": true,
+                                        "paths": [
+                                            0
+                                        ],
+                                        "tiers": [
+                                            4,
+                                            5
+                                        ]
+                                    },
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "None",
+                                    "exclude_kinds": "Child",
+                                    "exclude_category": "None",
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                },
+                                {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "ComancheHeli",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                }
+                            ],
+                            "allow_self_target": false
+                        },
+                        {
+                            "type": "SPrimingStateDragTowerProps",
+                            "enabled": true
+                        }
+                    ],
+                    "redeploy_tower": {
+                        "type": "SRedeployTowerProps",
+                        "enabled": true,
+                        "sfx_pick_up": {
+                            "type": "SSoundEffectProps",
+                            "enabled": true,
+                            "effect_slot": 4
+                        },
+                        "sfx_drop_off": {
+                            "type": "SSoundEffectProps",
+                            "enabled": true,
+                            "effect_slot": 5
+                        }
+                    },
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "support_drop",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "support_drop_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": "\"\""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "random_props": {
+                        "type": "SRandomCircleProps",
+                        "enabled": true,
+                        "min_radius": 42.0,
+                        "max_radius": 42.0
+                    },
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "support_crate"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"heli_support\""
+                    },
+                    "ability_icon_slot": 1,
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.25,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "support_crate",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 5.0,
+                "infinite_collision_radius": false,
+                "damage": 1.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 15.0
+                },
+                "sfx_on_spawn": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 1
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionTweenProps",
+                    "enabled": true,
+                    "duration": 0.44999998807907107,
+                    "tween_type": "\"elastic_out\"",
+                    "tween_elevation": false,
+                    "start_elevation": 0.0,
+                    "end_elevation": 0.0,
+                    "elevation_tween_type": "\"linear\""
+                },
+                "collectable_props": {
+                    "type": "SCollectableCashAndLivesProps",
+                    "enabled": true,
+                    "cash_min_value": "cash_crate_min",
+                    "cash_max_value": "cash_crate_max",
+                    "lives_min_value": "life_crate_min",
+                    "lives_max_value": "life_crate_max",
+                    "collect_radius": 50.0,
+                    "collect_speed": 5.0,
+                    "collectable_delay_seconds": 0.0,
+                    "instant_collect": false,
+                    "auto_collect": false,
+                    "auto_collect_value_modifier": 1.0,
+                    "contribute_to_tower_score": false,
+                    "sfx_on_collect": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    "vfx_on_collect": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 7,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "comanche_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "comanche_enabled",
+                "targeting_mode_override": "First",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "ReloadCooldown",
+                "ammo_count": 3,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "custom_reloader": {
+                    "type": "SCustomWeaponReloaderProps",
+                    "enabled": true,
+                    "event": "\"\"",
+                    "cooldown": "comanches_cooldown",
+                    "once_per_round": true,
+                    "reload_on_start": false,
+                    "start_cooldown_on_first_weapon_fire": false,
+                    "dynamic_ammo_count": false,
+                    "additive": false
+                },
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "target_range_override": {
+                        "type": "SRangeOverrideProps",
+                        "enabled": true,
+                        "override_range": 40.0,
+                        "override_ignore_range": true
+                    }
+                },
+                "emission_props": {
+                    "type": "SComancheEmissionProps",
+                    "enabled": true,
+                    "tower": "ComancheHeli",
+                    "limit_props": {
+                        "type": "STowerLimitProps",
+                        "enabled": true,
+                        "limit": 3,
+                        "parent_linked_limit": true
+                    }
+                },
+                "weapon_trigger_props": {
+                    "type": "SComancheTriggerProps",
+                    "permanent_comanches": "permanent_comanches",
+                    "enabled": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "marine_spawner",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "marine_spawner_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": "\"\""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 10.0,
+                    "ideal_distance_within_track": 0.0,
+                    "random_props": {
+                        "type": "SRandomCircleProps",
+                        "enabled": true,
+                        "min_radius": 20.0,
+                        "max_radius": 60.0
+                    },
+                    "prioritise_random_target_over_base_position": false,
+                    "tower_placement_props": {
+                        "type": "SValidTowerPlacementProps",
+                        "enabled": true,
+                        "tower_type": "SpecialPoperationsMarine"
+                    },
+                    "required_valid_target": true
+                },
+                "emission_props": {
+                    "type": "SSpawnTowerEmissionProps",
+                    "enabled": true,
+                    "set_weapon_as_parent": false,
+                    "tower": "SpecialPoperationsMarine"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "\"marine_spawner\""
+                    },
+                    "ability_icon_slot": 2,
+                    "cooldown_time": 25.0,
+                    "initial_cooldown_mod": 0.0,
+                    "requires_valid_target": true,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "MOAB Shove",
+            "props": {
+                "type": "SModProviderProps",
+                "enabled": "moab_shove_enabled",
+                "parent_dependant": true,
+                "modifier_props": [
+                    {
+                        "type": "SBloonModifierZoneProps",
+                        "enabled": true,
+                        "only_apply_mod_while_parent_valid": false,
+                        "mod": {
+                            "type": "SMoabShoveMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Exclusive",
+                            "mod_instances_limit": 1,
+                            "moab_multiplier": "shove_moab",
+                            "bfb_multiplier": "shove_bfb",
+                            "zomg_multiplier": "shove_zomg",
+                            "Simulation::Properties::SPropertyModifier::group_props": {
+                                "type": "SModifierGroupProps",
+                                "enabled": true,
+                                "group": {
+                                    "group_str": "\"shove\""
+                                },
+                                "overrides_groups": []
+                            }
+                        },
+                        "bloon_filter_props": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic|BAD",
+                            "exclude_features": "exclude_target_features",
+                            "exclude_status": "None",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "only_apply_filter_once": false,
+                        "bloon_target_limit": 1,
+                        "use_tower_base_position": false,
+                        "range_override": {
+                            "type": "SRangeOverrideProps",
+                            "enabled": true,
+                            "override_range": 28.0,
+                            "override_ignore_range": false
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Heli Flight",
+            "props": {
+                "type": "SHeliFlightProps",
+                "enabled": true,
+                "max_speed": "fly_speed",
+                "rotation_speed": 4.800000190734863,
+                "movement_force_start": "300.000000 * (fly_speed/45.0)",
+                "movement_force_end": "150.000000 * (fly_speed/45.0)",
+                "slowdown_radius_max": 15.0,
+                "slowdown_radius_min": 0.009999999776482582,
+                "repulsion_force": "300.000000 * (fly_speed/45.0)",
+                "repulsion_range": 30.0,
+                "strafe_distance": 60.0,
+                "min_velocity_cap_scale": 0.009999999776482582,
+                "tilt_angle_degrees": 25.0,
+                "clamp_pos_within_bounds": true
+            }
+        }
+    ]
+}
