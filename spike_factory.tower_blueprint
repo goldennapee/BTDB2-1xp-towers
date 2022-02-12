@@ -1,0 +1,2146 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "acquire_target_range",
+            "variable": {
+                "type": "Float",
+                "value": 34.0
+            }
+        },
+        {
+            "key": "valid_targeting_modes",
+            "variable": {
+                "type": "TowerTargetMode",
+                "value": "Normal"
+            }
+        },
+        {
+            "key": "spike_launcher",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "spikes",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "spike_launcher_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.75
+            }
+        },
+        {
+            "key": "spike_movement_duration",
+            "variable": {
+                "type": "Float",
+                "value": 0.75
+            }
+        },
+        {
+            "key": "spike_lifespan_seconds",
+            "variable": {
+                "type": "Float",
+                "value": 50.0
+            }
+        },
+        {
+            "key": "spike_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Sharp"
+            }
+        },
+        {
+            "key": "spike_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "spike_radius",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "spike_spawner",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "ceramic_damage_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "fortified_damage_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "moab_damage_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "fort_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "ceramic_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "moab_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "spike_storm_ability_ref",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "motion_tween_ref",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "spike_storm_spikes_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "spike_storm_spawner_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "spiked_mine_explosion_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "enable_spiked_mine",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_spike_storm",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "spike_storm_manual_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "explosion_radius",
+            "variable": {
+                "type": "Float",
+                "value": 19.0
+            }
+        },
+        {
+            "key": "explosion_damage",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "explosion_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "spike_storm_timer",
+            "variable": {
+                "type": "Float",
+                "value": 0.0010000000474974514
+            }
+        },
+        {
+            "key": "spike_storm_duration",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "pierce",
+            "variable": {
+                "type": "Int",
+                "value": 5
+            }
+        },
+        {
+            "key": "spike_storm_activated_ability_ref",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "enable_carpet_of_spikes",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "spike_storm_dur_min",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "spike_storm_dur_max",
+            "variable": {
+                "type": "Float",
+                "value": 13.0
+            }
+        },
+        {
+            "key": "spike_spawner_visual_index",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "enable_spike_spray_effect",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "spike_storm_count",
+            "variable": {
+                "type": "Float",
+                "value": 50.0
+            }
+        },
+        {
+            "key": "spike_storm_weapon_count",
+            "variable": {
+                "type": "Float",
+                "value": 4.0
+            }
+        },
+        {
+            "key": "moab_shreddr_inc",
+            "variable": {
+                "type": "BloonType",
+                "value": "MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "inc_prod_round_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "inc_prod_round_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "pierce_perma_spike",
+            "variable": {
+                "type": "Int",
+                "value": 50
+            }
+        },
+        {
+            "key": "use_perma_spike_pierce",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "ceramic_bonus_damage",
+            "variable": {
+                "type": "Float",
+                "value": 6.0
+            }
+        },
+        {
+            "key": "ignore_bloon_immunity",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "spike_storm_targeting_ref",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "spike_storm_emitter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "spike_storm_wep1_ref",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "spike_storm_wep2_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "spike_storm_wep3_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "spike_storm_wep4_ref",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "spike_storm_weapon_group",
+            "variable": {
+                "type": "String",
+                "value": "spike_storm"
+            }
+        },
+        {
+            "key": "spike_storm_custom_reload_ref",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "spike_storm_auto_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "weapon_group_ref",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "spike_storm_modifier",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weapon_group_ref",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weapon_group",
+            "variable": {
+                "type": "String",
+                "value": "carpet_of_spikes"
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weap1_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weap2_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weap3_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "carpet_of_spikes_weap4_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "carpet_of_spikes_modifier",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "enable_super_mine",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "super_mine_contact_explosion_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "set_bloons_on_fire",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "carpet_of_spikes_custom_reload_ref",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "spike_mine_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Explosion"
+            }
+        },
+        {
+            "key": "spike_mine_contact_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Explosion"
+            }
+        },
+        {
+            "key": "spike_lifetime_ref",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_SpikeFactory",
+            "description": "LOC_TOWER_DESC_SpikeFactory",
+            "cost": 800.0,
+            "unlock_cost_monkey_money": 250.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "SpikeFactory",
+                "tower_category": "Support",
+                "valid_targeting_modes": "valid_targeting_modes",
+                "default_targeting_mode": "Normal",
+                "placement": {
+                    "type": "Range",
+                    "radius": 8.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": "acquire_target_range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "spike_storm_ability_ref",
+                    "spike_launcher",
+                    "inc_prod_round_ref",
+                    "spike_storm_wep1_ref",
+                    "spike_storm_wep2_ref",
+                    "spike_storm_wep3_ref",
+                    "spike_storm_wep4_ref",
+                    "carpet_of_spikes_weap1_ref",
+                    "carpet_of_spikes_weap2_ref",
+                    "carpet_of_spikes_weap3_ref",
+                    "carpet_of_spikes_weap4_ref"
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Bigger_Stacks",
+            "description": "LOC_UPGRADE_DESC_Bigger_Stacks",
+            "parent_id": 0,
+            "cost": 700.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "pierce",
+                    "expression": "x + 5"
+                },
+                {
+                    "key": "pierce_perma_spike",
+                    "expression": "x + 30"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_White_Hot_Spikes",
+            "description": "LOC_UPGRADE_DESC_White_Hot_Spikes",
+            "parent_id": 1,
+            "cost": 600.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_damage_type",
+                    "expression": "x | EDamageType.Fire"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Spiked_Balls",
+            "description": "LOC_UPGRADE_DESC_Spiked_Balls",
+            "parent_id": 2,
+            "cost": 2300.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "pierce",
+                    "expression": " x + 4"
+                },
+                {
+                    "key": "ceramic_damage_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "fortified_damage_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "enable_spike_spray_effect",
+                    "expression": "false"
+                },
+                {
+                    "key": "spike_damage",
+                    "expression": "x + 1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Spiked_Mines",
+            "description": "LOC_UPGRADE_DESC_Spiked_Mines",
+            "parent_id": 3,
+            "cost": 9500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_spiked_mine",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Super_Mines",
+            "description": "LOC_UPGRADE_DESC_Super_Mines",
+            "parent_id": 4,
+            "cost": 130000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_launcher_reload_time",
+                    "expression": "x * 2"
+                },
+                {
+                    "key": "spike_damage",
+                    "expression": "10"
+                },
+                {
+                    "key": "explosion_radius",
+                    "expression": "100"
+                },
+                {
+                    "key": "explosion_damage",
+                    "expression": "1000"
+                },
+                {
+                    "key": "explosion_pierce",
+                    "expression": "60"
+                },
+                {
+                    "key": "enable_super_mine",
+                    "expression": "true"
+                },
+                {
+                    "key": "ignore_bloon_immunity",
+                    "expression": "x | EBloonType.Black"
+                },
+                {
+                    "key": "spike_mine_damage_type",
+                    "expression": "EDamageType.Unstoppable"
+                },
+                {
+                    "key": "spike_mine_contact_damage_type",
+                    "expression": "EDamageType.Unstoppable"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Faster_Production",
+            "description": "LOC_UPGRADE_DESC_Faster_Production",
+            "parent_id": 0,
+            "cost": 600.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_launcher_reload_time",
+                    "expression": "x - x*0.2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Even_Faster_Production",
+            "description": "LOC_UPGRADE_DESC_Even_Faster_Production",
+            "parent_id": 6,
+            "cost": 700.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_launcher_reload_time",
+                    "expression": "x - x*0.3"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_MOAB_SHREDR",
+            "description": "LOC_UPGRADE_DESC_MOAB_SHREDR",
+            "parent_id": 7,
+            "cost": 2500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "moab_damage_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Spike_Storm",
+            "description": "LOC_UPGRADE_DESC_Spike_Storm",
+            "parent_id": 8,
+            "cost": 5000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_spike_storm",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Carpet_of_Spikes",
+            "description": "LOC_UPGRADE_DESC_Carpet_of_Spikes",
+            "parent_id": 9,
+            "cost": 40000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_damage",
+                    "expression": "x + 2"
+                },
+                {
+                    "key": "enable_carpet_of_spikes",
+                    "expression": "true"
+                },
+                {
+                    "key": "spike_storm_dur_min",
+                    "expression": "18"
+                },
+                {
+                    "key": "spike_storm_dur_max",
+                    "expression": "22"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Long_Reach",
+            "description": "LOC_UPGRADE_DESC_Long_Reach",
+            "parent_id": 0,
+            "cost": 150.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "acquire_target_range",
+                    "expression": "x+8"
+                },
+                {
+                    "key": "spike_lifespan_seconds",
+                    "expression": "100"
+                },
+                {
+                    "key": "spike_storm_dur_min",
+                    "expression": "x * 1.5"
+                },
+                {
+                    "key": "spike_storm_dur_max",
+                    "expression": "x * 1.5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Smart_Spikes",
+            "description": "LOC_UPGRADE_DESC_Smart_Spikes",
+            "parent_id": 11,
+            "cost": 400.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "valid_targeting_modes",
+                    "expression": "x | ETowerTargetMode.Close | ETowerTargetMode.Far | ETowerTargetMode.Smart"
+                },
+                {
+                    "key": "inc_prod_round_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Long_Life_Spikes",
+            "description": "LOC_UPGRADE_DESC_Long_Life_Spikes",
+            "parent_id": 12,
+            "cost": 1400.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_lifespan_seconds",
+                    "expression": "140"
+                },
+                {
+                    "key": "spike_spawner_visual_index",
+                    "expression": "1"
+                },
+                {
+                    "key": "enable_spike_spray_effect",
+                    "expression": "false"
+                },
+                {
+                    "key": "spike_movement_duration",
+                    "expression": "0.66"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Deadly_Spikes",
+            "description": "LOC_UPGRADE_DESC_Deadly_Spikes",
+            "parent_id": 13,
+            "cost": 3500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_damage",
+                    "expression": "2"
+                },
+                {
+                    "key": "spike_lifespan_seconds",
+                    "expression": "210"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Perma-Spike",
+            "description": "LOC_UPGRADE_DESC_Perma-Spike",
+            "parent_id": 14,
+            "cost": 30000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spike_lifespan_seconds",
+                    "expression": "300.0"
+                },
+                {
+                    "key": "spike_damage",
+                    "expression": "10"
+                },
+                {
+                    "key": "use_perma_spike_pierce",
+                    "expression": "true"
+                },
+                {
+                    "key": "spike_launcher_reload_time",
+                    "expression": "4.85"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Spike Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "spike_launcher_reload_time",
+                "emission_delay": 0.10000000149011612,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "STrackTargetingProps",
+                    "enabled": true,
+                    "cache_path_manually": false,
+                    "forward_projection_amount": 0.0,
+                    "return_path_data": false,
+                    "ignore_line_of_sight": true,
+                    "targeting_mode_override": "None",
+                    "filter_bloon_source": "None"
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "spike_spawner"
+                },
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": "enable_spike_spray_effect",
+                        "effect_visual_slot": 0,
+                        "use_alt_emission_slot": true,
+                        "emission_slot": 1,
+                        "life_dependent_on_parent_tower": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Spikes",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "spike_radius",
+                "infinite_collision_radius": false,
+                "damage": "spike_damage",
+                "damage_type": "spike_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "use_perma_spike_pierce and pierce_perma_spike or pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": true,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": "spike_lifetime_ref",
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnContactProps",
+                    "enabled": "enable_super_mine",
+                    "trigger_on_max_contacts": false,
+                    "max_num_contacts": 0,
+                    "ammo_count": -1,
+                    "on_bloon_destroyed": false,
+                    "on_destroyed_by_immunity": false,
+                    "on_not_destroyed_by_immunity": false,
+                    "attatch_to_bloon": false,
+                    "bloon_lifespan_dependent": false,
+                    "use_parents_collision_history": false,
+                    "refund_original_pierce_if_not_created": false,
+                    "min_time_between_emissions": 0.0,
+                    "extra_pierce_cost_per_emission": 0,
+                    "target_spawned_children": "None",
+                    "bloon_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    },
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "super_mine_contact_explosion_ref"
+                        }
+                    ]
+                },
+                "create_projectile_on_death_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": "enable_spiked_mine",
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "spiked_mine_explosion_ref"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        "fort_damage_ref",
+                        "ceramic_damage_ref",
+                        "moab_damage_ref"
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "SpikeSpawner",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "use_perma_spike_pierce and pierce_perma_spike or pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": "spike_spawner_visual_index",
+                "angular_velocity_init_props": {
+                    "type": "SAngularVelocityInitFixedProps",
+                    "enabled": true,
+                    "velocity": 4.0
+                },
+                "angular_velocity_progress_props": {
+                    "type": "SAngularVelocityTweenProps",
+                    "enabled": true,
+                    "velocity_start": 16.0,
+                    "velocity_end": 0.10000000149011612,
+                    "duration": "spike_movement_duration",
+                    "tween_type": "\"quad_out\""
+                },
+                "random_starting_angle": true,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "spike_movement_duration"
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "spikes"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": true
+                },
+                "projectile_motion_props": "motion_tween_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Ceramic Damage",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "ceramic_damage_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "ceramic_bonus_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Fortified Damage",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "fortified_damage_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "1",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic|MOAB|BFB|ZOMG|DDT|BAD",
+                    "include_features": "Fortified",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "MOAB Damage",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "moab_damage_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "4",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "moab_shreddr_inc",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Spike Storm Ability",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_spike_storm",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "activated_ability_props": "spike_storm_activated_ability_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "SpikeStormSpikes",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "spike_radius",
+                "infinite_collision_radius": false,
+                "damage": "spike_damage",
+                "damage_type": "spike_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": true,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsRandomProps",
+                    "enabled": true,
+                    "min": "spike_storm_dur_min",
+                    "max": "spike_storm_dur_max"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        "fort_damage_ref",
+                        "ceramic_damage_ref",
+                        "moab_damage_ref"
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "SpikeStormSpawner",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "Damage",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": "spike_spawner_visual_index",
+                "angular_velocity_init_props": {
+                    "type": "SAngularVelocityInitFixedProps",
+                    "enabled": true,
+                    "velocity": 4.0
+                },
+                "angular_velocity_progress_props": {
+                    "type": "SAngularVelocityTweenProps",
+                    "enabled": true,
+                    "velocity_start": 16.0,
+                    "velocity_end": 0.10000000149011612,
+                    "duration": "spike_movement_duration",
+                    "tween_type": "\"quad_out\""
+                },
+                "random_starting_angle": true,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "spike_movement_duration"
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "spike_storm_spikes_ref"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": true
+                },
+                "projectile_motion_props": "motion_tween_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Projectile Motion Tween",
+            "props": {
+                "type": "SProjectileMotionTweenProps",
+                "enabled": true,
+                "duration": "spike_movement_duration",
+                "tween_type": "\"expo_out\"",
+                "tween_elevation": true,
+                "start_elevation": 1.0,
+                "end_elevation": 0.0,
+                "elevation_tween_type": "\"back_in\""
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "SpikedMineExplosion",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "explosion_radius",
+                "infinite_collision_radius": false,
+                "damage": "explosion_damage",
+                "damage_type": "spike_mine_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "explosion_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 2,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_bloon_immunity",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": "set_bloons_on_fire",
+                "sfx_on_death": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 1
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 2
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionPositionProps",
+                    "enabled": true,
+                    "speed": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Ability Spike Storm",
+            "props": {
+                "type": "SActivatedAbilityProps",
+                "enabled": true,
+                "ability_id": {
+                    "id": "\"spike_storm\""
+                },
+                "ability_icon_slot": 0,
+                "cooldown_time": "spike_storm_manual_cooldown",
+                "initial_cooldown_mod": 0.0,
+                "requires_valid_target": false,
+                "debt_lock": false,
+                "automatic_firing": false,
+                "moving_has_range_constraint": false,
+                "cooldown_starts_upon_firing": false,
+                "close_tower_ui_if_activated": false,
+                "send_custom_reload_event": {
+                    "type": "SCustomReloadEventProps",
+                    "enabled": true,
+                    "send_custom_reload_event_to_self": true,
+                    "send_custom_reload_event_to_all": false,
+                    "custom_reload_event": "\"spike_storm_reload_trigger\""
+                },
+                "sfx_on_activation": {
+                    "type": "SSoundEffectProps",
+                    "enabled": true,
+                    "effect_slot": 1
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "Inc Production Start Round",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "inc_prod_round_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "STowerTargetingProps",
+                    "enabled": true,
+                    "target_base_position": false,
+                    "range_override": {
+                        "type": "SRangeOverrideProps",
+                        "enabled": true,
+                        "override_range": 1.0,
+                        "override_ignore_range": true
+                    },
+                    "targeting_option_props": {
+                        "type": "SClosestTowerProps",
+                        "enabled": true
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": {
+                        "type": "SProjectileProps",
+                        "enabled": true,
+                        "collision_radius": 1.0,
+                        "infinite_collision_radius": false,
+                        "damage": 0.0,
+                        "damage_type": "None",
+                        "damage_distribution_mode": "ChildrenIfAllowed",
+                        "pierce": 1.0,
+                        "avoid_buff": "Damage",
+                        "collide_only_with_target": true,
+                        "collide_with_target_multiple_times": false,
+                        "collide_with_blockers": "None",
+                        "visual_slot": 0,
+                        "random_starting_angle": false,
+                        "ignore_immunity_for_bloon_types": "None",
+                        "ignore_immunity_for_damage_type": "None",
+                        "projectile_type": "None",
+                        "lifespan_depends_on_target": false,
+                        "lifespan_depends_on_tower": false,
+                        "destroy_projectile_when_tower_redeploys": false,
+                        "show_visual_on_spawn": false,
+                        "destroy_at_screen_bounds": false,
+                        "transform_emission_point_by_camera": false,
+                        "lifespan_props": {
+                            "type": "SLifespanSingleFrameProps",
+                            "enabled": true
+                        },
+                        "modify_tower_props": {
+                            "type": "SModifyTowerOnDeathProps",
+                            "enabled": true,
+                            "mod_child_tower_from_parent": false,
+                            "check_collision_with_tower_center_only": false,
+                            "tower_modifiers": [
+                                {
+                                    "type": "STowerModifierProps",
+                                    "enabled": true,
+                                    "is_multi_dependent": false,
+                                    "group_id": {
+                                        "group_str": ""
+                                    },
+                                    "accumulate_modifier": false,
+                                    "mod": {
+                                        "type": "STowerWeaponReloadTimeMod",
+                                        "enabled": true,
+                                        "apply_to_self": false,
+                                        "modify_type": "Exclusive",
+                                        "mod_instances_limit": 1,
+                                        "multiplier": -0.75
+                                    },
+                                    "lifespan_props": {
+                                        "type": "SLifespanSecondsProps",
+                                        "enabled": true,
+                                        "lifespan": 2.5
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Spike Storm Weapon 1",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_spike_storm",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "1/(spike_storm_count)",
+                "emission_delay": 0.0,
+                "avoid_buff": "ReloadCooldown",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 0,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "custom_reloader": "spike_storm_custom_reload_ref",
+                "targeting_props": "spike_storm_targeting_ref",
+                "emission_props": "spike_storm_emitter_ref",
+                "weapon_group_props": "weapon_group_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "Spike Storm Weapon 2",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_spike_storm",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "1/(spike_storm_count)",
+                "emission_delay": 0.0,
+                "avoid_buff": "ReloadCooldown",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 0,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "custom_reloader": "spike_storm_custom_reload_ref",
+                "targeting_props": "spike_storm_targeting_ref",
+                "emission_props": "spike_storm_emitter_ref",
+                "weapon_group_props": "weapon_group_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Spike Storm Targeting",
+            "props": {
+                "type": "STrackTargetingProps",
+                "enabled": true,
+                "cache_path_manually": false,
+                "range_override": {
+                    "type": "SRangeOverrideProps",
+                    "enabled": true,
+                    "override_range": 999.0,
+                    "override_ignore_range": false
+                },
+                "forward_projection_amount": 0.0,
+                "return_path_data": false,
+                "ignore_line_of_sight": true,
+                "targeting_mode_override": "Normal",
+                "filter_bloon_source": "None"
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "SpikeStormEmission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "spike_storm_spawner_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "SpikeStormReloader",
+            "props": {
+                "type": "SCustomWeaponReloaderProps",
+                "enabled": true,
+                "event": "\"spike_storm_reload_trigger\"",
+                "cooldown": -1.0,
+                "once_per_round": false,
+                "reload_on_start": false,
+                "start_cooldown_on_first_weapon_fire": false,
+                "dynamic_ammo_count": true,
+                "additive": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Weapon Group",
+            "props": {
+                "type": "SWeaponGroupProps",
+                "enabled": true,
+                "group_id": {
+                    "group_str": "spike_storm_weapon_group"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Spike Storm Mod",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerWeaponEnabledMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "weapon_override_props": {
+                        "type": "SWeaponOverrideProps",
+                        "enabled": true,
+                        "enable_weapon_group_id": {
+                            "group_str": "spike_storm_weapon_group"
+                        },
+                        "disable_non_group_weapons": false,
+                        "disable_trigger_weapon": true,
+                        "trigger_weapon_group_id": {
+                            "group_str": ""
+                        }
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Carpet of Spikes Weapon 1",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_carpet_of_spikes",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "1/(spike_storm_count)",
+                "emission_delay": 0.0,
+                "avoid_buff": "ReloadCooldown",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 0,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "custom_reloader": "carpet_of_spikes_custom_reload_ref",
+                "targeting_props": "spike_storm_targeting_ref",
+                "emission_props": "spike_storm_emitter_ref",
+                "weapon_group_props": "carpet_of_spikes_weapon_group_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "Carpet of Spikes Weapon Group",
+            "props": {
+                "type": "SWeaponGroupProps",
+                "enabled": true,
+                "group_id": {
+                    "group_str": "carpet_of_spikes_weapon_group"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Carpet of Spikes Weapon 2",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_carpet_of_spikes",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "1/(spike_storm_count)",
+                "emission_delay": 0.0,
+                "avoid_buff": "ReloadCooldown",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 0,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": true,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "custom_reloader": "carpet_of_spikes_custom_reload_ref",
+                "targeting_props": "spike_storm_targeting_ref",
+                "emission_props": "spike_storm_emitter_ref",
+                "weapon_group_props": "carpet_of_spikes_weapon_group_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "Carpet of Spikes Mod",
+            "props": {
+                "type": "STowerModifierProps",
+                "enabled": true,
+                "is_multi_dependent": false,
+                "group_id": {
+                    "group_str": ""
+                },
+                "accumulate_modifier": false,
+                "mod": {
+                    "type": "STowerWeaponEnabledMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "weapon_override_props": {
+                        "type": "SWeaponOverrideProps",
+                        "enabled": true,
+                        "enable_weapon_group_id": {
+                            "group_str": "carpet_of_spikes_weapon_group"
+                        },
+                        "disable_non_group_weapons": false,
+                        "disable_trigger_weapon": true,
+                        "trigger_weapon_group_id": {
+                            "group_str": ""
+                        }
+                    }
+                },
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "SuperMineContactExplosion",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 20.0,
+                "infinite_collision_radius": false,
+                "damage": 10.0,
+                "damage_type": "spike_mine_contact_damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 10.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 3,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_bloon_immunity",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": "set_bloons_on_fire",
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionPositionProps",
+                    "enabled": true,
+                    "speed": 0.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Set Bloons On Fire",
+            "props": {
+                "type": "SModifyBloonOnContactProps",
+                "enabled": true,
+                "modify_target_only": false,
+                "apply_even_if_not_damaged": true,
+                "bloon_modifier_must_inherit_age": false,
+                "bloon_modifier_props": [
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "effector_props": {
+                            "type": "SBloonDoTProps",
+                            "enabled": true,
+                            "interval": 2.0,
+                            "amount": 1.0,
+                            "damage_type": "Fire",
+                            "damage_distribution_mode": "ChildrenIfAllowed"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": 6.0
+                        },
+                        "bloon_filter_props": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "None",
+                            "exclude_features": "None",
+                            "exclude_status": "None",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "only_apply_filter_once": false
+                    },
+                    {
+                        "type": "SBloonModifierProps",
+                        "enabled": true,
+                        "propagate_to_children": true,
+                        "can_soak_though_moab_class": false,
+                        "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                        "mod": {
+                            "type": "SBloonStatusMod",
+                            "enabled": true,
+                            "apply_to_self": false,
+                            "modify_type": "Stack",
+                            "mod_instances_limit": 1,
+                            "status": "Fire"
+                        },
+                        "lifespan_props": {
+                            "type": "SLifespanSecondsProps",
+                            "enabled": true,
+                            "lifespan": 6.0
+                        },
+                        "bloon_filter_props": {
+                            "type": "SExclusiveBloonFilterProps",
+                            "enabled": true,
+                            "exclude_types": "None",
+                            "exclude_features": "None",
+                            "exclude_status": "None",
+                            "exclude_mod_groups": [],
+                            "chance": 1.0
+                        },
+                        "only_apply_filter_once": false
+                    }
+                ],
+                "override_apply_even_if_not_damaged_by_bloon_mod": []
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "CarpetOfSpikesReloader",
+            "props": {
+                "type": "SCustomWeaponReloaderProps",
+                "enabled": true,
+                "event": "\"\"",
+                "cooldown": 14.0,
+                "once_per_round": false,
+                "reload_on_start": true,
+                "start_cooldown_on_first_weapon_fire": false,
+                "dynamic_ammo_count": true,
+                "additive": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "Lifespan Seconds",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "spike_lifespan_seconds"
+            }
+        }
+    ]
+}
