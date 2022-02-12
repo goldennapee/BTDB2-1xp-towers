@@ -1,0 +1,2201 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "tower_footprint",
+            "variable": {
+                "type": "Float",
+                "value": 11.0
+            }
+        },
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 40.0
+            }
+        },
+        {
+            "key": "enable_jungle_drums",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_grow_blocker",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_radar_scanner",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_monkey_business",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_monkey_commerce",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_monkey_town",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_monkey_intelligence",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_primary_training",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_primary_mentoring",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_call_to_arms",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "fire_vfx_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "call_to_arms_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "call_to_arms_ability_ref",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "enable_monkey_city",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "tower_range_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "tower_speed_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "bloon_block_regen_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "tower_radar_scanner_ref",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "tower_monkey_business_ref",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "tower_monkey_commerce_ref",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "monkey_town_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "bloon_send_multiplier",
+            "variable": {
+                "type": "Float",
+                "value": 0.10000000149011612
+            }
+        },
+        {
+            "key": "cta_duration_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "fire_vfx",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "enable_bigger_radius",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "primary_training_proj_speed",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "primary_training_range",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "primary_training_pierce",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "monkey_intelligence_damage_types",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "primary_mentoring_cost",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "primary_mentoring_cooldown_mod_ref",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "primary_mentoring_range",
+            "variable": {
+                "type": "Node",
+                "value": 44
+            }
+        },
+        {
+            "key": "tower_cost_mod_tier4_ref",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "tower_cost_mod_tier5_ref",
+            "variable": {
+                "type": "Node",
+                "value": 50
+            }
+        },
+        {
+            "key": "tower_pierce_add",
+            "variable": {
+                "type": "Int",
+                "value": 1
+            }
+        },
+        {
+            "key": "lock_upgrade_tier_5_at_zero",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "glaive_ref",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "ballista_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "enable_primary_expertise",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "enable_homeland_defense",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "homeland_defence_pierce_percent",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "money_crate_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "enable_monkeyopolis",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "crate_launcher_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "tier_two_cost",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "cta_dur_secs",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "tower_cost_mod_t5_zone",
+            "variable": {
+                "type": "Node",
+                "value": 51
+            }
+        },
+        {
+            "key": "primary_training_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "exclude_no_tower_filter_ref",
+            "variable": {
+                "type": "Node",
+                "value": 41
+            }
+        },
+        {
+            "key": "bigger_radius_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "jungle_drums_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "primary_training_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "radar_scanner_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 42
+            }
+        },
+        {
+            "key": "monkey_intelligence_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 43
+            }
+        },
+        {
+            "key": "monkey_business_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 45
+            }
+        },
+        {
+            "key": "monkey_commerce_buff_icon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 46
+            }
+        },
+        {
+            "key": "call_to_arms_reload",
+            "variable": {
+                "type": "Float",
+                "value": -0.33000001311302187
+            }
+        },
+        {
+            "key": "dummy_weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 52
+            }
+        },
+        {
+            "key": "ability_id",
+            "variable": {
+                "type": "String",
+                "value": "call_to_arms"
+            }
+        },
+        {
+            "key": "homeland_defense_override",
+            "variable": {
+                "type": "String",
+                "value": ""
+            }
+        },
+        {
+            "key": "radar_bloon_zone_ref",
+            "variable": {
+                "type": "Node",
+                "value": 47
+            }
+        },
+        {
+            "key": "cta_initial_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_MonkeyVillage",
+            "description": "LOC_TOWER_DESC_MonkeyVillage",
+            "cost": 1200.0,
+            "unlock_cost_monkey_money": 250.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "MonkeyVillage",
+                "tower_category": "Support",
+                "valid_targeting_modes": "First|Last|Close|Strong",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": "tower_footprint",
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": "lock_upgrade_tier_5_at_zero",
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "call_to_arms_ability_ref",
+                    "ballista_weapon",
+                    "crate_launcher_weapon",
+                    "dummy_weapon_ref"
+                ],
+                "mod_provider_props": {
+                    "type": "SModProviderProps",
+                    "enabled": true,
+                    "parent_dependant": true,
+                    "modifier_props": [
+                        "tower_range_mod_ref",
+                        "tower_speed_mod_ref",
+                        "bloon_block_regen_mod_ref",
+                        "tower_radar_scanner_ref",
+                        "tower_monkey_business_ref",
+                        "tower_monkey_commerce_ref",
+                        "monkey_town_mod_ref",
+                        "primary_training_proj_speed",
+                        "primary_training_range",
+                        "primary_training_pierce",
+                        "monkey_intelligence_damage_types",
+                        "primary_mentoring_cost",
+                        "primary_mentoring_cooldown_mod_ref",
+                        "bigger_radius_buff_icon_ref",
+                        "jungle_drums_buff_icon_ref",
+                        "primary_training_buff_icon_ref",
+                        "radar_scanner_buff_icon_ref",
+                        "monkey_intelligence_buff_icon_ref",
+                        "monkey_business_buff_icon_ref",
+                        "monkey_commerce_buff_icon_ref",
+                        "tower_cost_mod_t5_zone",
+                        "primary_mentoring_range",
+                        "radar_bloon_zone_ref"
+                    ]
+                },
+                "active_vfx_props": [
+                    "fire_vfx"
+                ],
+                "collector_props": {
+                    "type": "SCollectorProps",
+                    "enabled": "enable_monkey_city",
+                    "range": "range"
+                },
+                "monkeyopolis_props": {
+                    "type": "SMonkeyopolisProps",
+                    "enabled": "enable_monkeyopolis",
+                    "tower_worth_divisor": 2000.0,
+                    "display_effect": false,
+                    "mod_group_props": {
+                        "type": "SModifierGroupProps",
+                        "enabled": true,
+                        "group": {
+                            "group_str": "\"monkeyopolis\""
+                        },
+                        "overrides_groups": []
+                    }
+                },
+                "upgrade_cost_per_tower": {
+                    "type": "SUpgradeCostPerTowerProps",
+                    "enabled": "enable_monkey_city",
+                    "tower_type": "BananaFarm",
+                    "max_tier": 4,
+                    "next_upgrade_level": 5,
+                    "lock_upgrades_on_cost_zero": true
+                }
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Bigger_Radius",
+            "description": "LOC_UPGRADE_DESC_Bigger_Radius",
+            "parent_id": 0,
+            "cost": 400.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x+8"
+                },
+                {
+                    "key": "enable_bigger_radius",
+                    "expression": "true"
+                },
+                {
+                    "key": "tower_footprint",
+                    "expression": ""
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Jungle_Drums",
+            "description": "LOC_UPGRADE_DESC_Jungle_Drums",
+            "parent_id": 1,
+            "cost": 1500.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_jungle_drums",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Primary_Training",
+            "description": "LOC_UPGRADE_DESC_Primary_Training",
+            "parent_id": 2,
+            "cost": 800.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_primary_training",
+                    "expression": "true"
+                },
+                {
+                    "key": "fire_vfx_enabled",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Primary_Mentoring",
+            "description": "LOC_UPGRADE_DESC_Primary_Mentoring",
+            "parent_id": 3,
+            "cost": 2500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_primary_mentoring",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Primary_Expertise",
+            "description": "LOC_UPGRADE_DESC_Primary_Expertise",
+            "parent_id": 4,
+            "cost": 25000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "tower_pierce_add",
+                    "expression": "x + 2"
+                },
+                {
+                    "key": "enable_primary_expertise",
+                    "expression": "true"
+                },
+                {
+                    "key": "tier_two_cost",
+                    "expression": "0"
+                },
+                {
+                    "key": "range",
+                    "expression": "x+7"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Grow_Blocker",
+            "description": "LOC_UPGRADE_DESC_Grow_Blocker",
+            "parent_id": 0,
+            "cost": 250.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_grow_blocker",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Radar_Scanner",
+            "description": "LOC_UPGRADE_DESC_Radar_Scanner",
+            "parent_id": 6,
+            "cost": 2000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_radar_scanner",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Monkey_Intelligence_Bureau",
+            "description": "LOC_UPGRADE_DESC_Monkey_Intelligence_Bureau",
+            "parent_id": 7,
+            "cost": 7500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkey_intelligence",
+                    "expression": "true"
+                },
+                {
+                    "key": "fire_vfx_enabled",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Call_to_Arms",
+            "description": "LOC_UPGRADE_DESC_Call_to_Arms",
+            "parent_id": 8,
+            "cost": 20000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_call_to_arms",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Homeland_Defense",
+            "description": "LOC_UPGRADE_DESC_Homeland_Defense",
+            "parent_id": 9,
+            "cost": 40000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "call_to_arms_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "enable_homeland_defense",
+                    "expression": "true"
+                },
+                {
+                    "key": "homeland_defence_pierce_percent",
+                    "expression": "1"
+                },
+                {
+                    "key": "cta_dur_secs",
+                    "expression": "20"
+                },
+                {
+                    "key": "call_to_arms_reload",
+                    "expression": "-.5"
+                },
+                {
+                    "key": "ability_id",
+                    "expression": "\"homeland_defense\""
+                },
+                {
+                    "key": "homeland_defense_override",
+                    "expression": "\"call_to_arms\""
+                },
+                {
+                    "key": "cta_initial_cooldown",
+                    "expression": "0.11"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Monkey_Business",
+            "description": "LOC_UPGRADE_DESC_Monkey_Business",
+            "parent_id": 0,
+            "cost": 500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkey_business",
+                    "expression": "true"
+                },
+                {
+                    "key": "fire_vfx_enabled",
+                    "expression": "false"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Monkey_Commerce",
+            "description": "LOC_UPGRADE_DESC_Monkey_Commerce",
+            "parent_id": 11,
+            "cost": 500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkey_commerce",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Monkey_Town",
+            "description": "LOC_UPGRADE_DESC_Monkey_Town",
+            "parent_id": 12,
+            "cost": 5000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkey_town",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Monkey_City",
+            "description": "LOC_UPGRADE_DESC_Monkey_City",
+            "parent_id": 13,
+            "cost": 7000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkey_city",
+                    "expression": "true"
+                },
+                {
+                    "key": "range",
+                    "expression": "x + (0.05 * b)"
+                },
+                {
+                    "key": "bloon_send_multiplier",
+                    "expression": "x + 0.1"
+                },
+                {
+                    "key": "lock_upgrade_tier_5_at_zero",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Monkeyopolis",
+            "description": "LOC_UPGRADE_DESC_Monkeyopolis",
+            "parent_id": 14,
+            "cost": 5000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_monkeyopolis",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Call to Arms",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_call_to_arms",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 0.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": "enable_homeland_defense",
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 0.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": {
+                        "type": "SProjectileProps",
+                        "enabled": true,
+                        "collision_radius": "range",
+                        "infinite_collision_radius": "enable_homeland_defense",
+                        "damage": 0.0,
+                        "damage_type": "None",
+                        "damage_distribution_mode": "ChildrenIfAllowed",
+                        "pierce": 1.0,
+                        "avoid_buff": "None",
+                        "collide_only_with_target": false,
+                        "collide_with_target_multiple_times": false,
+                        "collide_with_blockers": "None",
+                        "visual_slot": 0,
+                        "random_starting_angle": false,
+                        "ignore_immunity_for_bloon_types": "None",
+                        "ignore_immunity_for_damage_type": "None",
+                        "projectile_type": "None",
+                        "lifespan_depends_on_target": false,
+                        "lifespan_depends_on_tower": false,
+                        "destroy_projectile_when_tower_redeploys": false,
+                        "show_visual_on_spawn": false,
+                        "destroy_at_screen_bounds": false,
+                        "transform_emission_point_by_camera": false,
+                        "lifespan_props": {
+                            "type": "SLifespanSingleFrameProps",
+                            "enabled": true
+                        },
+                        "modify_tower_props": {
+                            "type": "SModifyTowerOnDeathProps",
+                            "enabled": true,
+                            "mod_child_tower_from_parent": true,
+                            "check_collision_with_tower_center_only": true,
+                            "tower_modifiers": [
+                                {
+                                    "type": "STowerModifierProps",
+                                    "enabled": true,
+                                    "is_multi_dependent": false,
+                                    "group_id": {
+                                        "group_str": ""
+                                    },
+                                    "accumulate_modifier": false,
+                                    "mod": {
+                                        "type": "STowerPierceMod",
+                                        "enabled": true,
+                                        "apply_to_self": false,
+                                        "modify_type": "Stack",
+                                        "mod_instances_limit": 1,
+                                        "multiplier": "homeland_defence_pierce_percent",
+                                        "additive": 0.0,
+                                        "Simulation::Properties::SPropertyModifier::group_props": {
+                                            "type": "SModifierGroupProps",
+                                            "enabled": true,
+                                            "group": {
+                                                "group_str": "ability_id"
+                                            },
+                                            "overrides_groups": "{homeland_defense_override}"
+                                        }
+                                    },
+                                    "lifespan_props": "cta_duration_ref",
+                                    "tower_filter_props": "exclude_no_tower_filter_ref"
+                                },
+                                {
+                                    "type": "STowerModifierProps",
+                                    "enabled": true,
+                                    "is_multi_dependent": false,
+                                    "group_id": {
+                                        "group_str": ""
+                                    },
+                                    "accumulate_modifier": false,
+                                    "mod": {
+                                        "type": "STowerWeaponReloadTimeMod",
+                                        "enabled": true,
+                                        "apply_to_self": false,
+                                        "modify_type": "Stack",
+                                        "mod_instances_limit": 1,
+                                        "multiplier": "call_to_arms_reload",
+                                        "Simulation::Properties::SPropertyModifier::group_props": {
+                                            "type": "SModifierGroupProps",
+                                            "enabled": true,
+                                            "group": {
+                                                "group_str": "ability_id"
+                                            },
+                                            "overrides_groups": "{homeland_defense_override}"
+                                        }
+                                    },
+                                    "lifespan_props": "cta_duration_ref",
+                                    "tower_filter_props": "exclude_no_tower_filter_ref"
+                                },
+                                {
+                                    "type": "STowerModifierProps",
+                                    "enabled": true,
+                                    "is_multi_dependent": false,
+                                    "group_id": {
+                                        "group_str": ""
+                                    },
+                                    "accumulate_modifier": false,
+                                    "mod": {
+                                        "type": "STowerActiveVFXMod",
+                                        "enabled": true,
+                                        "apply_to_self": false,
+                                        "modify_type": "Stack",
+                                        "mod_instances_limit": 1,
+                                        "new_active_vfx_props": [
+                                            {
+                                                "type": "SActiveVFXProps",
+                                                "enabled": true,
+                                                "vfx_props": {
+                                                    "type": "SVisualEffectProps",
+                                                    "enabled": true,
+                                                    "effect_visual_slot": 8,
+                                                    "use_alt_emission_slot": false,
+                                                    "emission_slot": 0,
+                                                    "life_dependent_on_parent_tower": false
+                                                }
+                                            }
+                                        ],
+                                        "Simulation::Properties::SPropertyModifier::group_props": {
+                                            "type": "SModifierGroupProps",
+                                            "enabled": true,
+                                            "group": {
+                                                "group_str": "ability_id"
+                                            },
+                                            "overrides_groups": "{homeland_defense_override}"
+                                        }
+                                    },
+                                    "lifespan_props": "cta_duration_ref",
+                                    "tower_filter_props": "exclude_no_tower_filter_ref"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "ability_id"
+                    },
+                    "ability_icon_slot": "call_to_arms_icon_slot",
+                    "cooldown_time": 45.0,
+                    "initial_cooldown_mod": "cta_initial_cooldown",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": true,
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerActiveVFXMod",
+                                "enabled": true,
+                                "apply_to_self": true,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "new_active_vfx_props": [
+                                    {
+                                        "type": "SActiveVFXProps",
+                                        "enabled": true,
+                                        "vfx_props": {
+                                            "type": "SVisualEffectProps",
+                                            "enabled": true,
+                                            "effect_visual_slot": 0,
+                                            "use_alt_emission_slot": false,
+                                            "emission_slot": 0,
+                                            "life_dependent_on_parent_tower": true
+                                        }
+                                    }
+                                ]
+                            },
+                            "lifespan_props": "cta_duration_ref"
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 9
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Monkey Village Range",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": true,
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerRangeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "0.1",
+                    "additive": 0.0
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "Jungle Drums",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_jungle_drums",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerWeaponReloadTimeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -0.15000000596046449
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Grow Blocker",
+            "props": {
+                "type": "SBloonModifierZoneProps",
+                "enabled": "enable_grow_blocker",
+                "only_apply_mod_while_parent_valid": false,
+                "mod": {
+                    "type": "SBloonBlockRegenMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1
+                },
+                "bloon_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "Regen",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                },
+                "only_apply_filter_once": false,
+                "bloon_target_limit": 0,
+                "use_tower_base_position": true
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Radar Scanner",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_radar_scanner",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "SWeaponRemoveExcludeFilterMod",
+                    "enabled": true,
+                    "apply_to_self": true,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "targeting_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "only_sent_bloons": false
+                    },
+                    "collision_filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "only_sent_bloons": false
+                    }
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "Monkey Business",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_business",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerCostMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "placement_cost_multiplier": 0.8999999761581421,
+                    "upgrade_cost_multipliers": [
+                        {
+                            "tier": 1,
+                            "multiplier": 0.8999999761581421
+                        },
+                        {
+                            "tier": 2,
+                            "multiplier": 0.8999999761581421
+                        },
+                        {
+                            "tier": 3,
+                            "multiplier": 0.8999999761581421
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Monkey Commerce",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_commerce",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerCostMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Stack",
+                    "mod_instances_limit": 3,
+                    "placement_cost_multiplier": 0.949999988079071,
+                    "upgrade_cost_multipliers": [
+                        {
+                            "tier": 1,
+                            "multiplier": 0.949999988079071
+                        },
+                        {
+                            "tier": 2,
+                            "multiplier": 0.949999988079071
+                        },
+                        {
+                            "tier": 3,
+                            "multiplier": 0.949999988079071
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Monkey Town",
+            "props": {
+                "type": "SPlayerModifierProps",
+                "enabled": "enable_monkey_town",
+                "mod": {
+                    "type": "SPlayerBloonSendIncomeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": "bloon_send_multiplier"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "CTA Lifespan",
+            "props": {
+                "type": "SLifespanSecondsProps",
+                "enabled": true,
+                "lifespan": "cta_dur_secs"
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Village Fire",
+            "props": {
+                "type": "SActiveVFXProps",
+                "enabled": "fire_vfx_enabled",
+                "vfx_props": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Primary Training Range",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_training",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerRangeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.10000000149011612,
+                    "additive": 0.0
+                },
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Primary Training Proj Speed",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_training",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "SProjectileMotionSpeedMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.25,
+                    "additive": 0.0,
+                    "projectile_type_filter": "None"
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Primary Training Pierce",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_training",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerPierceMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": "tower_pierce_add"
+                },
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "Monkey Intelligence Bureau",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_intelligence",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerDamageTypeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "damage_type_addition": "Unstoppable"
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "Primary Mentoring Cost",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_mentoring",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": "tower_cost_mod_tier4_ref",
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Primary Mentoring Cooldown",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_mentoring",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "SActivatedAbilityCooldownModProps",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": -0.10000000149011612,
+                    "additive": 0.0
+                },
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Tier 1 Upgrade Free",
+            "props": {
+                "type": "STowerCostMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Exclusive",
+                "mod_instances_limit": 1,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [
+                    {
+                        "tier": 1,
+                        "multiplier": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Ballista",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_primary_expertise",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 3.0,
+                "emission_delay": 0.03500000014901161,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerBoneWeaponRotationProps",
+                    "enabled": true,
+                    "bone_name": "\"catapult\"",
+                    "bone_rotation_offset": 0.0,
+                    "rotate_tower_to_middle_of_targets": false,
+                    "use_bone_rotation_for_offset_position": true
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": true,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": true,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "None",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "glaive_ref"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Glaive",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 10.0,
+                "infinite_collision_radius": false,
+                "damage": 10.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 100.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": true,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 2.5
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "retarget_props": {
+                    "type": "SRetargetProps",
+                    "enabled": true,
+                    "track_new_targets": false,
+                    "range": 50.0,
+                    "ignore_range": false,
+                    "fov": 0.0,
+                    "delay": 0.0,
+                    "max_bounces": 100,
+                    "use_original_target_mode": true,
+                    "target_mode": "Close",
+                    "destroy_if_no_target": false,
+                    "use_lifespan_as_range": false,
+                    "use_bloon_bounce_increments": true,
+                    "stop_child_bloons_being_retargeted": false,
+                    "bloon_increment_props": [
+                        {
+                            "type": "SBloonTypeIncrementProps",
+                            "enabled": true,
+                            "bloon_type": "MOAB|BFB|ZOMG|DDT|BAD",
+                            "num_bounces_consumed": 10
+                        }
+                    ]
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        {
+                            "type": "SDamageAdjustFilterProps",
+                            "enabled": true,
+                            "damage_set": -1.0,
+                            "damage_modifier": 190.0,
+                            "damage_multiplier": 1.0,
+                            "damage_modifier_non_multiplicable": 0.0,
+                            "inclusive_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "Ceramic|MOAB|BFB|ZOMG|DDT|BAD",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            }
+                        }
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 300.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Crate Launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": false,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": 0,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": false,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": false,
+                "spread_ammo_use_evenly_during_round": true,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "random_props": {
+                        "type": "SRandomCircleProps",
+                        "enabled": true,
+                        "min_radius": "15",
+                        "max_radius": "30"
+                    },
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "money_crate_proj_ref"
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"monkeyopolis\""
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Money Crate",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 0.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 15.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionTweenProps",
+                    "enabled": true,
+                    "duration": 0.44999998807907107,
+                    "tween_type": "\"elastic_out\"",
+                    "tween_elevation": false,
+                    "start_elevation": 0.0,
+                    "end_elevation": 0.0,
+                    "elevation_tween_type": "\"linear\""
+                },
+                "collectable_props": {
+                    "type": "SCollectableCashProps",
+                    "enabled": true,
+                    "min_value": 300.0,
+                    "max_value": 300.0,
+                    "collect_radius": 50.0,
+                    "collect_speed": 5.0,
+                    "collectable_delay_seconds": 0.0,
+                    "instant_collect": false,
+                    "auto_collect": false,
+                    "auto_collect_value_modifier": 1.0,
+                    "contribute_to_tower_score": true,
+                    "vfx_on_collect": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 0,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "0-0-0 Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": true,
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 2,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "2-x-x Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_jungle_drums",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 3,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "3-x-x Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_training",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 7,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 40,
+            "name": "Primary Towers Only",
+            "props": {
+                "type": "SInclusiveTowerFilterProps",
+                "enabled": true,
+                "include_types": "None",
+                "include_kinds": "Tower",
+                "include_category": "Primary",
+                "include_area_types": "None",
+                "include_placed_area_types": "None",
+                "include_must_have_weapon": false,
+                "include_must_have_ability": false,
+                "include_mod_groups": [],
+                "include_target_mode": "None",
+                "include_any_combo": false,
+                "include_only_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 41,
+            "name": "Exclude No Tower",
+            "props": {
+                "type": "SExclusiveTowerFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_kinds": "None",
+                "exclude_category": "None",
+                "exclude_area_types": "None",
+                "exclude_placed_area_types": "None",
+                "exclude_must_have_weapon": false,
+                "exclude_mod_groups": [],
+                "exclude_target_mode": "None",
+                "exclude_any_combo": false,
+                "exclude_placement_candidate": false
+            }
+        },
+        {
+            "type": 4,
+            "id": 42,
+            "name": "x-2-x Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_radar_scanner",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 4,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 43,
+            "name": "x-3-x Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_intelligence",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 7,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 45,
+            "name": "x-x-1 Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_business",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 5,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": {
+                    "type": "SExclusiveTowerFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_kinds": "None",
+                    "exclude_category": "None",
+                    "exclude_area_types": "None",
+                    "exclude_placed_area_types": "None",
+                    "exclude_must_have_weapon": false,
+                    "exclude_mod_groups": [],
+                    "exclude_target_mode": "None",
+                    "exclude_any_combo": false,
+                    "exclude_placement_candidate": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 46,
+            "name": "x-x-2 Buff Icon",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_monkey_commerce",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerActiveVFXMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 3,
+                    "new_active_vfx_props": [
+                        {
+                            "type": "SActiveVFXProps",
+                            "enabled": true,
+                            "vfx_props": {
+                                "type": "SVisualEffectProps",
+                                "enabled": true,
+                                "effect_visual_slot": 6,
+                                "use_alt_emission_slot": false,
+                                "emission_slot": 0,
+                                "life_dependent_on_parent_tower": false
+                            }
+                        }
+                    ]
+                },
+                "exclusive_filter": {
+                    "type": "SExclusiveTowerFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_kinds": "None",
+                    "exclude_category": "None",
+                    "exclude_area_types": "None",
+                    "exclude_placed_area_types": "None",
+                    "exclude_must_have_weapon": false,
+                    "exclude_mod_groups": [],
+                    "exclude_target_mode": "None",
+                    "exclude_any_combo": false,
+                    "exclude_placement_candidate": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 50,
+            "name": "Tier 2 Upgrade Free",
+            "props": {
+                "type": "STowerCostMod",
+                "enabled": true,
+                "apply_to_self": false,
+                "modify_type": "Exclusive",
+                "mod_instances_limit": 1,
+                "placement_cost_multiplier": 1.0,
+                "upgrade_cost_multipliers": [
+                    {
+                        "tier": 2,
+                        "multiplier": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 51,
+            "name": "Primary Expertise Cost",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_expertise",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": "tower_cost_mod_tier5_ref",
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 52,
+            "name": "Dummy Weapon for camo detect",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "Camo",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 44,
+            "name": "Primary Mentoring Range",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_primary_mentoring",
+                "mod_child_tower_from_parent": false,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerRangeMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "multiplier": 0.0,
+                    "additive": 5.0
+                },
+                "inclusive_filter": "primary_training_filter_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 47,
+            "name": "Bloon Zone Mod Radar",
+            "props": {
+                "type": "STowerModifierZoneProps",
+                "enabled": "enable_radar_scanner",
+                "mod_child_tower_from_parent": true,
+                "required_target_mode": "None",
+                "mod": {
+                    "type": "STowerBloonModifierZoneRemoveExcludeFilterMod",
+                    "enabled": true,
+                    "apply_to_self": false,
+                    "modify_type": "Exclusive",
+                    "mod_instances_limit": 1,
+                    "filter_props": {
+                        "type": "SInclusiveBloonFilterProps",
+                        "enabled": true,
+                        "include_types": "None",
+                        "include_features": "Camo",
+                        "include_status": "None",
+                        "include_mod_groups": [],
+                        "chance": 1.0,
+                        "only_sent_bloons": false
+                    }
+                },
+                "exclusive_filter": "exclude_no_tower_filter_ref"
+            }
+        }
+    ]
+}
