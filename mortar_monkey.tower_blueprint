@@ -1,0 +1,2403 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "main_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "main_emission_delay",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "main_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 1.7999999523162842
+            }
+        },
+        {
+            "key": "spread",
+            "variable": {
+                "type": "Float",
+                "value": 18.0
+            }
+        },
+        {
+            "key": "shell_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "shell_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "aoe_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 18
+            }
+        },
+        {
+            "key": "aoe_pierce",
+            "variable": {
+                "type": "Int",
+                "value": 40
+            }
+        },
+        {
+            "key": "aoe_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Explosion"
+            }
+        },
+        {
+            "key": "aoe_radius",
+            "variable": {
+                "type": "Float",
+                "value": 20.0
+            }
+        },
+        {
+            "key": "aoe_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "burny_stuff_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "burny_stuff_damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Fire"
+            }
+        },
+        {
+            "key": "burny_stuff_duration",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "burny_stuff_interval",
+            "variable": {
+                "type": "Float",
+                "value": 1.5
+            }
+        },
+        {
+            "key": "exclude_target_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "Black|Zebra|MOAB|BFB|ZOMG|DDT|BAD"
+            }
+        },
+        {
+            "key": "burny_stuff_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "signal_flare_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "heavy_shells_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shell_shock_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shell_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 22
+            }
+        },
+        {
+            "key": "MOAB_damage_adjustment",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "ceramic_damage_adjust",
+            "variable": {
+                "type": "Node",
+                "value": 19
+            }
+        },
+        {
+            "key": "lead_damage_adjustment",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "fortified_damage_adjust",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "include_target_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "stun_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "shockwave_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "the_big_one_damage",
+            "variable": {
+                "type": "Float",
+                "value": 5.0
+            }
+        },
+        {
+            "key": "enable_shattering_shells",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shattering_shells_ref",
+            "variable": {
+                "type": "Node",
+                "value": 25
+            }
+        },
+        {
+            "key": "stun_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 0.5
+            }
+        },
+        {
+            "key": "shell_emission_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "aoe_emission_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "ceramic_damage",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "enable_the_biggest_one",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "shockwave_ceramic_damage",
+            "variable": {
+                "type": "Float",
+                "value": 10.0
+            }
+        },
+        {
+            "key": "enable_pop_and_awe",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "add_stun_damage",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "heavy_shell_stun_damage",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "pop_and_awe_shell",
+            "variable": {
+                "type": "Node",
+                "value": 34
+            }
+        },
+        {
+            "key": "pop_and_awe_aoe",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "pop_and_awe_weapon",
+            "variable": {
+                "type": "Node",
+                "value": 31
+            }
+        },
+        {
+            "key": "burny_stuff_damage_moab",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "wall_of_fire_proj",
+            "variable": {
+                "type": "Node",
+                "value": 35
+            }
+        },
+        {
+            "key": "enable_blooncineration",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "exc_bloon_feature",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "target_reticle_scale",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "ceramic_plus_damage_adjust",
+            "variable": {
+                "type": "Node",
+                "value": 30
+            }
+        },
+        {
+            "key": "ceramic_shockwave_damage_adjust",
+            "variable": {
+                "type": "Node",
+                "value": 36
+            }
+        },
+        {
+            "key": "wall_of_fire_damage_pref",
+            "variable": {
+                "type": "Node",
+                "value": 37
+            }
+        },
+        {
+            "key": "ignore_damage_immunity",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "shockwave_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "lead_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "moab_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "fortified_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "signal_flare_include_types",
+            "variable": {
+                "type": "BloonType",
+                "value": "Red|Blue|Green|Yellow|Pink|Black|White|Purple|Lead|Zebra|Rainbow|Ceramic|MOAB|BFB|ZOMG|BAD"
+            }
+        },
+        {
+            "key": "can_target_camo",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "wall_of_fire_pierce",
+            "variable": {
+                "type": "Float",
+                "value": 20.0
+            }
+        },
+        {
+            "key": "wall_of_fire_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "signal_flare_emit_ref",
+            "variable": {
+                "type": "Node",
+                "value": 38
+            }
+        },
+        {
+            "key": "signal_flare_projectile_ref",
+            "variable": {
+                "type": "Node",
+                "value": 39
+            }
+        },
+        {
+            "key": "bombardment_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bombardment_ref",
+            "variable": {
+                "type": "Node",
+                "value": 40
+            }
+        },
+        {
+            "key": "bombardment_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "bomb_ability_id",
+            "variable": {
+                "type": "String",
+                "value": "Bombardment"
+            }
+        },
+        {
+            "key": "bomb_ability_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "enable_bombpop_ability",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "bombpop_sfx_slot",
+            "variable": {
+                "type": "Int",
+                "value": 9
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_MortarMonkey",
+            "description": "LOC_TOWER_DESC_MortarMonkey",
+            "cost": 750.0,
+            "unlock_cost_monkey_money": 75.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "MortarMonkey",
+                "tower_category": "Military",
+                "valid_targeting_modes": "First|Last|Strong|Close",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 11.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": 40.0,
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": "can_target_camo",
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": "target_reticle_scale",
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "main_weapon",
+                    "pop_and_awe_weapon"
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Bigger_Blast",
+            "description": "LOC_UPGRADE_DESC_Bigger_Blast",
+            "parent_id": 0,
+            "cost": 500.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_pierce",
+                    "expression": "x+5"
+                },
+                {
+                    "key": "aoe_radius",
+                    "expression": "x+t*0.4"
+                },
+                {
+                    "key": "wall_of_fire_pierce",
+                    "expression": "x+5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Bloon_Buster",
+            "description": "LOC_UPGRADE_DESC_Bloon_Buster",
+            "parent_id": 1,
+            "cost": 650.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_damage",
+                    "expression": "x + 1"
+                },
+                {
+                    "key": "wall_of_fire_damage",
+                    "expression": "x + 1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Shell_Shock",
+            "description": "LOC_UPGRADE_DESC_Shell_Shock",
+            "parent_id": 2,
+            "cost": 1100.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "shell_shock_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "burny_stuff_damage",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "burny_stuff_damage_moab",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "aoe_radius",
+                    "expression": "x+10"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_The_Big_One",
+            "description": "LOC_UPGRADE_DESC_The_Big_One",
+            "parent_id": 3,
+            "cost": 8000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_damage",
+                    "expression": " 5"
+                },
+                {
+                    "key": "aoe_radius",
+                    "expression": " x + t"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": " x + 40"
+                },
+                {
+                    "key": "exclude_target_types",
+                    "expression": " x ~EBloonType.Black ~EBloonType.Zebra"
+                },
+                {
+                    "key": "ignore_damage_immunity",
+                    "expression": "x | EBloonType.Black | EBloonType.Zebra | EBloonType.DDT"
+                },
+                {
+                    "key": "burny_stuff_damage",
+                    "expression": "x+1"
+                },
+                {
+                    "key": "burny_stuff_damage_moab",
+                    "expression": "x+1"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_The_Biggest_One",
+            "description": "LOC_UPGRADE_DESC_The_Biggest_One",
+            "parent_id": 4,
+            "cost": 28000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "aoe_radius",
+                    "expression": "x + t * 0.8"
+                },
+                {
+                    "key": "aoe_pierce",
+                    "expression": "200"
+                },
+                {
+                    "key": "aoe_damage",
+                    "expression": "20"
+                },
+                {
+                    "key": "enable_the_biggest_one",
+                    "expression": "true"
+                },
+                {
+                    "key": "burny_stuff_damage",
+                    "expression": "x+22"
+                },
+                {
+                    "key": "burny_stuff_damage_moab",
+                    "expression": "x+22"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Faster_Reload",
+            "description": "LOC_UPGRADE_DESC_Faster_Reload",
+            "parent_id": 0,
+            "cost": 300.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "x-x*0.25"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Rapid_Reload",
+            "description": "LOC_UPGRADE_DESC_Rapid_Reload",
+            "parent_id": 6,
+            "cost": 500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "x-x*0.28"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Heavy_Shells",
+            "description": "LOC_UPGRADE_DESC_Heavy_Shells",
+            "parent_id": 7,
+            "cost": 900.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "heavy_shells_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "aoe_damage_type",
+                    "expression": "EDamageType.Sharp|EDamageType.Explosion"
+                },
+                {
+                    "key": "exclude_target_types",
+                    "expression": "include_target_types"
+                },
+                {
+                    "key": "ceramic_damage",
+                    "expression": "x + 3"
+                },
+                {
+                    "key": "ignore_damage_immunity",
+                    "expression": "x | EBloonType.Black | EBloonType.Zebra | EBloonType.DDT"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Artillery_Battery",
+            "description": "LOC_UPGRADE_DESC_Artillery_Battery",
+            "parent_id": 8,
+            "cost": 5500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "main_reload_time",
+                    "expression": "x / 4"
+                },
+                {
+                    "key": "shell_emission_ref",
+                    "expression": "28"
+                },
+                {
+                    "key": "main_emission_delay",
+                    "expression": "0.05"
+                },
+                {
+                    "key": "bombardment_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "enable_bombpop_ability",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Pop_and_Awe",
+            "description": "LOC_UPGRADE_DESC_Pop_and_Awe",
+            "parent_id": 9,
+            "cost": 30000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_pop_and_awe",
+                    "expression": "true"
+                },
+                {
+                    "key": "heavy_shell_stun_damage",
+                    "expression": "x + 8"
+                },
+                {
+                    "key": "ceramic_damage",
+                    "expression": "x + 9"
+                },
+                {
+                    "key": "lead_damage",
+                    "expression": "x + 3"
+                },
+                {
+                    "key": "moab_damage",
+                    "expression": "x + 3"
+                },
+                {
+                    "key": "fortified_damage",
+                    "expression": "x + 3"
+                },
+                {
+                    "key": "bombardment_enabled",
+                    "expression": "false"
+                },
+                {
+                    "key": "bomb_ability_id",
+                    "expression": "\"Pop and Awe\""
+                },
+                {
+                    "key": "bomb_ability_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "bombpop_sfx_slot",
+                    "expression": "10"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Increased_Accuracy",
+            "description": "LOC_UPGRADE_DESC_Increased_Accuracy",
+            "parent_id": 0,
+            "cost": 200.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "spread",
+                    "expression": "8"
+                },
+                {
+                    "key": "target_reticle_scale",
+                    "expression": "8 / 18"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Burny_Stuff",
+            "description": "LOC_UPGRADE_DESC_Burny_Stuff",
+            "parent_id": 11,
+            "cost": 500.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "burny_stuff_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Signal_Flare",
+            "description": "LOC_UPGRADE_DESC_Signal_Flare",
+            "parent_id": 12,
+            "cost": 700.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "signal_flare_enabled",
+                    "expression": "true"
+                },
+                {
+                    "key": "exc_bloon_feature",
+                    "expression": "x &~ EBloonFeatures.Camo"
+                },
+                {
+                    "key": "can_target_camo",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Shattering_Shells",
+            "description": "LOC_UPGRADE_DESC_Shattering_Shells",
+            "parent_id": 13,
+            "cost": 11000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "enable_shattering_shells",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Blooncineration",
+            "description": "LOC_UPGRADE_DESC_Blooncineration",
+            "parent_id": 14,
+            "cost": 40000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "burny_stuff_damage",
+                    "expression": "5"
+                },
+                {
+                    "key": "burny_stuff_interval",
+                    "expression": "1"
+                },
+                {
+                    "key": "burny_stuff_damage_moab",
+                    "expression": "100"
+                },
+                {
+                    "key": "enable_blooncineration",
+                    "expression": "true"
+                },
+                {
+                    "key": "ignore_damage_immunity",
+                    "expression": "x | EBloonType.DDT"
+                },
+                {
+                    "key": "signal_flare_include_types",
+                    "expression": "x | EBloonType.DDT"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "Mortar",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "ManualTarget",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "main_reload_time",
+                "emission_delay": "main_emission_delay",
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": false,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Target",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "random_props": {
+                        "type": "SRandomCircleProps",
+                        "enabled": true,
+                        "min_radius": 0.0,
+                        "max_radius": "spread"
+                    },
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": "shell_emission_ref",
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 1,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "Shell",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "0",
+                "infinite_collision_radius": false,
+                "damage": "0",
+                "damage_type": "None",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "-1",
+                "avoid_buff": "Damage",
+                "collide_only_with_target": true,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "shell_lifespan"
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        "aoe_emission_ref",
+                        "signal_flare_emit_ref"
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "timed_spawn_vfx_props": {
+                    "type": "STimedSpawnVFXProps",
+                    "enabled": true,
+                    "spawn_timer": 0.25,
+                    "vfx_props": {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 2,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                },
+                "sfx_on_death": [
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 3
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 4
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 6
+                    },
+                    {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 7
+                    }
+                ],
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "AOE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "aoe_radius",
+                "infinite_collision_radius": false,
+                "damage": "aoe_damage",
+                "damage_type": "aoe_damage_type",
+                "damage_distribution_mode": "AlwaysApplyToChildren",
+                "pierce": "aoe_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "ignore_damage_immunity",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exc_bloon_feature",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "heavy_shells_enabled",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "stun_ref"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "enable_shattering_shells",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "shattering_shells_ref"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "enable_blooncineration",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "wall_of_fire_proj"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "shell_shock_enabled",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "stun_ref"
+                        },
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": "shell_shock_enabled",
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "shockwave_ref"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": "burny_stuff_enabled",
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Stack",
+                                "mod_instances_limit": 1,
+                                "status": "Fire"
+                            },
+                            "effector_props": {
+                                "type": "SBloonDoTProps",
+                                "enabled": true,
+                                "interval": "burny_stuff_interval",
+                                "amount": "burny_stuff_damage",
+                                "damage_type": "burny_stuff_damage_type",
+                                "damage_distribution_mode": "ChildrenIfAllowed"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "burny_stuff_duration"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": "signal_flare_enabled",
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonFeaturesRemoveMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "features": "Camo"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "EBloonType.Red|EBloonType.Blue|EBloonType.Green|EBloonType.Yellow|EBloonType.Pink|EBloonType.Black|EBloonType.White|EBloonType.Purple|EBloonType.Lead|EBloonType.Zebra|EBloonType.Rainbow|EBloonType.Ceramic|EBloonType.MOAB|EBloonType.BFB|EBloonType.ZOMG|EBloonType.BAD",
+                                "include_features": "Camo",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            },
+                            "only_apply_filter_once": true
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": "burny_stuff_enabled",
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Stack",
+                                "mod_instances_limit": 1,
+                                "status": "Fire"
+                            },
+                            "effector_props": {
+                                "type": "SBloonDoTProps",
+                                "enabled": true,
+                                "interval": "burny_stuff_interval",
+                                "amount": "burny_stuff_damage_moab",
+                                "damage_type": "Fire",
+                                "damage_distribution_mode": "ChildrenIfAllowed"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "burny_stuff_duration"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": "enable_blooncineration",
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "effector_props": {
+                                "type": "SBloonRemoveFortifiedEffectorProps",
+                                "enabled": true
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "DDT",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            },
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "damage_props": "shell_damage_ref",
+                "vfx_on_spawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 0,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false,
+                    "custom_elevation_props": {
+                        "type": "SVisualEffectFixedElevationProps",
+                        "enabled": true,
+                        "elevation": 0.0
+                    }
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "Ceramic Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "heavy_shells_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "ceramic_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "Lead Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "heavy_shells_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "lead_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Lead|DDT",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "MOAB Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "heavy_shells_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "moab_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "Shell Damage Adjust",
+            "props": {
+                "type": "SDamageAdjustProps",
+                "enabled": true,
+                "damage_adjust_filters": [
+                    "ceramic_damage_adjust",
+                    "lead_damage_adjustment",
+                    "MOAB_damage_adjustment",
+                    "fortified_damage_adjust",
+                    "add_stun_damage",
+                    "ceramic_plus_damage_adjust"
+                ]
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "Stun",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": "shell_shock_enabled",
+                "collision_radius": "aoe_radius * 0.5",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Explosion",
+                "damage_distribution_mode": "AlwaysApplyToChildren",
+                "pierce": "aoe_pierce",
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                    "exclude_features": "exc_bloon_feature",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonMotionStateMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "bloon_motion_state": "Still"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "stun_lifespan"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "exclude_target_types",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "status": "Stun"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "stun_lifespan"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "MOAB|BFB|ZOMG|DDT|BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Shockwave",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": "shell_shock_enabled",
+                "collision_radius": "aoe_radius * 1.5",
+                "infinite_collision_radius": false,
+                "damage": "shockwave_damage",
+                "damage_type": "Explosion",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "aoe_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exc_bloon_feature",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        "ceramic_shockwave_damage_adjust"
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": true
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "Shattering",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": "enable_shattering_shells",
+                "collision_radius": "aoe_radius",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "aoe_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "ZOMG|BAD",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": true,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonFeaturesRemoveMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "features": "Camo|Regen"
+                            },
+                            "effector_props": {
+                                "type": "SBloonRemoveFortifiedEffectorProps",
+                                "enabled": true
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "ZOMG|DDT|BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": "enable_blooncineration",
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonFeaturesRemoveMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "features": "Camo"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "DDT",
+                                "include_features": "Camo",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            },
+                            "only_apply_filter_once": true
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonImmunityRemoveMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "damage_type_immunity": "Sharp|Shatter|Cold|Energy"
+                            },
+                            "bloon_filter_props": {
+                                "type": "SInclusiveBloonFilterProps",
+                                "enabled": true,
+                                "include_types": "DDT",
+                                "include_features": "None",
+                                "include_status": "None",
+                                "include_mod_groups": [],
+                                "chance": 1.0,
+                                "only_sent_bloons": false
+                            },
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "Single Emission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "shell_projectile"
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "Artillery Emission",
+            "props": {
+                "type": "SSequentialEmissionProps",
+                "enabled": true,
+                "spray_angle": 0.0,
+                "slot_props": [
+                    {
+                        "type": "SEmissionSlotProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "animation_trigger": "\"attack.1\""
+                    },
+                    {
+                        "type": "SEmissionSlotProps",
+                        "enabled": true,
+                        "slot": 1,
+                        "animation_trigger": "\"attack.2\""
+                    },
+                    {
+                        "type": "SEmissionSlotProps",
+                        "enabled": true,
+                        "slot": 2,
+                        "animation_trigger": "\"attack.3\""
+                    }
+                ],
+                "projectile_props": "shell_projectile"
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "Fortified Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "heavy_shells_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "fortified_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "Fortified",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "AOE Emission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "aoe_projectile"
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "Ceramic+ 5XX Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "enable_the_biggest_one",
+                "damage_set": -1.0,
+                "damage_modifier": 20.0,
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic|MOAB|BFB|ZOMG|DDT|BAD",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Pop And Awe",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "enable_bombpop_ability",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": "enable_pop_and_awe",
+                    "base_position_type": "MapOrigin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": "enable_pop_and_awe",
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "pop_and_awe_shell"
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "bomb_ability_id"
+                    },
+                    "ability_icon_slot": "bomb_ability_slot",
+                    "cooldown_time": 60.0,
+                    "initial_cooldown_mod": 0.0,
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": true,
+                    "close_tower_ui_if_activated": false,
+                    "duration": {
+                        "type": "STimeDurationProps",
+                        "enabled": true,
+                        "time": "bombardment_lifespan"
+                    },
+                    "tower_modifiers": [
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": "bombardment_enabled",
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "STowerWeaponReloadTimeMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "multiplier": -0.75
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "bombardment_lifespan"
+                            }
+                        },
+                        {
+                            "type": "STowerModifierProps",
+                            "enabled": "bombardment_enabled",
+                            "is_multi_dependent": false,
+                            "group_id": {
+                                "group_str": ""
+                            },
+                            "accumulate_modifier": false,
+                            "mod": {
+                                "type": "SProjectileCollisionRadiusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "multiplier": 0.15000000596046449,
+                                "additive": 0.0,
+                                "projectile_type_filter": "AreaOfEffect"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": "bombardment_lifespan"
+                            }
+                        }
+                    ],
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": "enable_bombpop_ability",
+                            "effect_visual_slot": 8,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": true
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": "bombpop_sfx_slot"
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Pop And Awe AoE",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 999999.0,
+                "infinite_collision_radius": true,
+                "damage": 20.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": false,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonStatusMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "status": "Stun"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": 0.8999999761581421
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        },
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonMotionStateMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "bloon_motion_state": "Still"
+                            },
+                            "lifespan_props": {
+                                "type": "SLifespanSecondsProps",
+                                "enabled": true,
+                                "lifespan": 0.8999999761581421
+                            },
+                            "bloon_filter_props": {
+                                "type": "SExclusiveBloonFilterProps",
+                                "enabled": true,
+                                "exclude_types": "BAD",
+                                "exclude_features": "None",
+                                "exclude_status": "None",
+                                "exclude_mod_groups": [],
+                                "chance": 1.0
+                            },
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Stun Damage",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "heavy_shells_enabled",
+                "damage_set": -1.0,
+                "damage_modifier": "heavy_shell_stun_damage",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "None",
+                    "include_features": "None",
+                    "include_status": "Stun",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 34,
+            "name": "Pop And Awe Shell",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 2.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 1.0,
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SSingleEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "spray_angle": 0.0,
+                            "projectile_props": "pop_and_awe_aoe"
+                        }
+                    ],
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionStickyProps",
+                    "enabled": true,
+                    "follow_first_child_bloon": false,
+                    "destroyOnInvalidTarget": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 35,
+            "name": "Wall of Fire Proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 1.0,
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": -1.0,
+                "avoid_buff": "Damage",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": 4.5
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnTimeProps",
+                    "enabled": true,
+                    "max_time": 0.10000000149011612,
+                    "count": -1,
+                    "immediate_fire_first_shot": true,
+                    "targeting_props": {
+                        "type": "SAreaTargetingProps",
+                        "enabled": true,
+                        "base_position_type": "Origin",
+                        "point_sample_distance": 6.0,
+                        "ideal_distance_within_track": 0.0,
+                        "prioritise_random_target_over_base_position": true,
+                        "required_valid_target": false
+                    },
+                    "emission_props": {
+                        "type": "SSingleEmissionProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "spray_angle": 0.0,
+                        "projectile_props": "wall_of_fire_damage_pref"
+                    }
+                },
+                "vfx_on_despawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 8,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 36,
+            "name": "Ceramic Shockwave 5XX Damage Mod",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": "enable_the_biggest_one",
+                "damage_set": -1.0,
+                "damage_modifier": "10",
+                "damage_multiplier": 1.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 37,
+            "name": "Wall of Fire Damage Proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 15.0,
+                "infinite_collision_radius": false,
+                "damage": "wall_of_fire_damage",
+                "damage_type": "Fire",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "wall_of_fire_pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "Purple",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 38,
+            "name": "Signal Flare Emssion",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": "signal_flare_enabled",
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "signal_flare_projectile_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 39,
+            "name": "Signal Flare Proj",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "aoe_radius + 30",
+                "infinite_collision_radius": false,
+                "damage": 0.0,
+                "damage_type": "Explosion",
+                "damage_distribution_mode": "AlwaysApplyToChildren",
+                "pierce": 80.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "None",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "AreaOfEffect",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": false,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSingleFrameProps",
+                    "enabled": true
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "None",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "modify_bloon_props": {
+                    "type": "SModifyBloonOnContactProps",
+                    "enabled": true,
+                    "modify_target_only": false,
+                    "apply_even_if_not_damaged": true,
+                    "bloon_modifier_must_inherit_age": false,
+                    "bloon_modifier_props": [
+                        {
+                            "type": "SBloonModifierProps",
+                            "enabled": true,
+                            "propagate_to_children": true,
+                            "can_soak_though_moab_class": false,
+                            "propagate_to_children_if_parent_popped_and_mod_failed": false,
+                            "mod": {
+                                "type": "SBloonFeaturesRemoveMod",
+                                "enabled": true,
+                                "apply_to_self": false,
+                                "modify_type": "Exclusive",
+                                "mod_instances_limit": 1,
+                                "features": "Camo"
+                            },
+                            "only_apply_filter_once": false
+                        }
+                    ],
+                    "override_apply_even_if_not_damaged_by_bloon_mod": []
+                }
+            }
+        }
+    ]
+}
