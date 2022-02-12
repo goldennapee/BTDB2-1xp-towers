@@ -1,0 +1,2125 @@
+{
+    "version_code": 0,
+    "invalid": false,
+    "type": 1,
+    "variables": [
+        {
+            "key": "range",
+            "variable": {
+                "type": "Float",
+                "value": 32.0
+            }
+        },
+        {
+            "key": "reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.949999988079071
+            }
+        },
+        {
+            "key": "pierce",
+            "variable": {
+                "type": "Int",
+                "value": 2
+            }
+        },
+        {
+            "key": "dart_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "spike_ball_damage",
+            "variable": {
+                "type": "Float",
+                "value": 1.0
+            }
+        },
+        {
+            "key": "arrow_damage",
+            "variable": {
+                "type": "Float",
+                "value": 3.0
+            }
+        },
+        {
+            "key": "damage_type",
+            "variable": {
+                "type": "DamageType",
+                "value": "Sharp"
+            }
+        },
+        {
+            "key": "proj_radius",
+            "variable": {
+                "type": "Float",
+                "value": 2.0
+            }
+        },
+        {
+            "key": "proj_speed",
+            "variable": {
+                "type": "Float",
+                "value": 300.0
+            }
+        },
+        {
+            "key": "proj_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 0.25
+            }
+        },
+        {
+            "key": "proj_visual",
+            "variable": {
+                "type": "ProjectileVisualType",
+                "value": 0
+            }
+        },
+        {
+            "key": "weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 16
+            }
+        },
+        {
+            "key": "dart_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 17
+            }
+        },
+        {
+            "key": "spikeball_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "arrow_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 21
+            }
+        },
+        {
+            "key": "exclude_features",
+            "variable": {
+                "type": "BloonFeatures",
+                "value": "Camo"
+            }
+        },
+        {
+            "key": "enable_ceramic_damage_mod",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "crossbow_emission_ref",
+            "variable": {
+                "type": "Node",
+                "value": 23
+            }
+        },
+        {
+            "key": "arrow_crit_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 24
+            }
+        },
+        {
+            "key": "smfc_weap_ref",
+            "variable": {
+                "type": "Node",
+                "value": 26
+            }
+        },
+        {
+            "key": "smfc_duration",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "smfc_enabled",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "smfc_icon_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "smfc_alt_display_slot",
+            "variable": {
+                "type": "Int",
+                "value": 0
+            }
+        },
+        {
+            "key": "smfc_leader_alt_display_slot",
+            "variable": {
+                "type": "Int",
+                "value": 2
+            }
+        },
+        {
+            "key": "smfc_tower_limit",
+            "variable": {
+                "type": "Int",
+                "value": 10
+            }
+        },
+        {
+            "key": "smfc_transform_eligable",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "smfc_dart_weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 27
+            }
+        },
+        {
+            "key": "smfc_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.05999999865889549
+            }
+        },
+        {
+            "key": "smfc_wep_group_id",
+            "variable": {
+                "type": "String",
+                "value": "super_monkey_fan"
+            }
+        },
+        {
+            "key": "pmfc_transform_eligable",
+            "variable": {
+                "type": "Bool",
+                "value": true
+            }
+        },
+        {
+            "key": "pmfc_reload_time",
+            "variable": {
+                "type": "Float",
+                "value": 0.029999999329447748
+            }
+        },
+        {
+            "key": "pmfc_plasma_proj_ref",
+            "variable": {
+                "type": "Node",
+                "value": 29
+            }
+        },
+        {
+            "key": "pmfc_plasma_weapon_ref",
+            "variable": {
+                "type": "Node",
+                "value": 28
+            }
+        },
+        {
+            "key": "smfc_lifespan",
+            "variable": {
+                "type": "Float",
+                "value": 15.0
+            }
+        },
+        {
+            "key": "smfc_mod_group_id",
+            "variable": {
+                "type": "String",
+                "value": "super_monkey_fan"
+            }
+        },
+        {
+            "key": "smfc_mod_override_group",
+            "variable": {
+                "type": "GroupArray",
+                "value": []
+            }
+        },
+        {
+            "key": "smfc_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 50.0
+            }
+        },
+        {
+            "key": "smfc_ability_id",
+            "variable": {
+                "type": "String",
+                "value": "super_monkey_fan_club"
+            }
+        },
+        {
+            "key": "random_min",
+            "variable": {
+                "type": "Float",
+                "value": 8.0
+            }
+        },
+        {
+            "key": "random_max",
+            "variable": {
+                "type": "Float",
+                "value": 12.0
+            }
+        },
+        {
+            "key": "ceramic_damage_ref",
+            "variable": {
+                "type": "Node",
+                "value": 32
+            }
+        },
+        {
+            "key": "primary_projectile",
+            "variable": {
+                "type": "Node",
+                "value": 20
+            }
+        },
+        {
+            "key": "crossbow_pierce_boost",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        },
+        {
+            "key": "arrow_ignore_immunity",
+            "variable": {
+                "type": "BloonType",
+                "value": "None"
+            }
+        },
+        {
+            "key": "smfc_exclude_towers",
+            "variable": {
+                "type": "Node",
+                "value": 33
+            }
+        },
+        {
+            "key": "smfc_aa_group_id",
+            "variable": {
+                "type": "String",
+                "value": "smfc_aa_weapon"
+            }
+        },
+        {
+            "key": "spike_anim_delay",
+            "variable": {
+                "type": "Float",
+                "value": 0.15000000596046449
+            }
+        },
+        {
+            "key": "disable_smfc_tower_target",
+            "variable": {
+                "type": "Bool",
+                "value": false
+            }
+        },
+        {
+            "key": "smfc_initial_cooldown",
+            "variable": {
+                "type": "Float",
+                "value": 0.0
+            }
+        }
+    ],
+    "nodes": [
+        {
+            "type": 0,
+            "id": 0,
+            "name": "LOC_TOWER_NAME_DartMonkey",
+            "description": "LOC_TOWER_DESC_DartMonkey",
+            "cost": 200.0,
+            "unlock_cost_monkey_money": 0.0,
+            "props": {
+                "type": "STowerProps",
+                "enabled": true,
+                "tower_kind": "Tower",
+                "tower_type": "DartMonkey",
+                "tower_category": "Primary",
+                "valid_targeting_modes": "First|Last|Strong|Close",
+                "default_targeting_mode": "None",
+                "placement": {
+                    "type": "Range",
+                    "radius": 6.0,
+                    "supported_area": "Land",
+                    "blocks_other_towers": true
+                },
+                "range": "range",
+                "show_full_vision_poly": false,
+                "is_selectable": true,
+                "is_sellable": true,
+                "is_upgradable": true,
+                "destroy_on_parent_removal": false,
+                "destroy_on_parent_upgrade": false,
+                "upgrade_on_parent_upgrade": false,
+                "inherit_target_mode_from_parent": false,
+                "reset_tower_rotation_on_upgrade": false,
+                "lock_tower_rotation": false,
+                "ignore_map_area_overlap": false,
+                "can_target_camo": false,
+                "calculate_full_vision": false,
+                "lock_tower_bone_rotation": "",
+                "submerge_offset": -5.0,
+                "tower_xp_multiplier": 1.0,
+                "placement_cost_multiplier": 1.0,
+                "use_alternative_cost_multipliers": false,
+                "upgrade_cost_multipliers": [],
+                "sell_value_multiplier": 0.699999988079071,
+                "target_reticle_scale": 1.0,
+                "fire_weapons_in_sequence": false,
+                "weapon_props": [
+                    "weapon_ref",
+                    "smfc_weap_ref",
+                    "smfc_dart_weapon_ref",
+                    "pmfc_plasma_weapon_ref"
+                ],
+                "smfc_target_props": [
+                    {
+                        "type": "SSMFCTowerTargetProps",
+                        "enabled": "smfc_transform_eligable",
+                        "weapon_group_id": {
+                            "group_str": "\"super_monkey_fan\""
+                        }
+                    },
+                    {
+                        "type": "SSMFCTowerTargetProps",
+                        "enabled": "pmfc_transform_eligable",
+                        "weapon_group_id": {
+                            "group_str": "\"plasma_monkey_fan\""
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": 1,
+            "id": 1,
+            "name": "LOC_UPGRADE_NAME_Sharp_Shots",
+            "description": "LOC_UPGRADE_DESC_Sharp_Shots",
+            "parent_id": 0,
+            "cost": 100.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "pierce",
+                    "expression": "x + 1"
+                },
+                {
+                    "key": "crossbow_pierce_boost",
+                    "expression": "x + 5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 2,
+            "name": "LOC_UPGRADE_NAME_Razor_Sharp_Shots",
+            "description": "LOC_UPGRADE_DESC_Razor_Sharp_Shots",
+            "parent_id": 1,
+            "cost": 200.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "pierce",
+                    "expression": "x + 2"
+                },
+                {
+                    "key": "crossbow_pierce_boost",
+                    "expression": "x + 5"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 3,
+            "name": "LOC_UPGRADE_NAME_Spike-o-pult",
+            "description": "LOC_UPGRADE_DESC_Spike-o-pult",
+            "parent_id": 2,
+            "cost": 300.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "proj_speed",
+                    "expression": "150"
+                },
+                {
+                    "key": "proj_lifespan",
+                    "expression": "1.0"
+                },
+                {
+                    "key": "proj_radius",
+                    "expression": "5.0"
+                },
+                {
+                    "key": "pierce",
+                    "expression": "x+17"
+                },
+                {
+                    "key": "enable_ceramic_damage_mod",
+                    "expression": "true"
+                },
+                {
+                    "key": "weapon_ref",
+                    "expression": "19"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "1.15"
+                },
+                {
+                    "key": "smfc_transform_eligable",
+                    "expression": "false"
+                },
+                {
+                    "key": "pmfc_transform_eligable",
+                    "expression": "false"
+                },
+                {
+                    "key": "damage_type",
+                    "expression": "EDamageType.Shatter"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 4,
+            "name": "LOC_UPGRADE_NAME_Juggernaut",
+            "description": "LOC_UPGRADE_DESC_Juggernaut",
+            "parent_id": 3,
+            "cost": 1800.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + (t * 0.15)"
+                },
+                {
+                    "key": "proj_radius",
+                    "expression": "7"
+                },
+                {
+                    "key": "pierce",
+                    "expression": "50"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "1"
+                },
+                {
+                    "key": "damage_type",
+                    "expression": "x | EDamageType.Unstoppable"
+                },
+                {
+                    "key": "ceramic_damage_ref",
+                    "expression": "31"
+                },
+                {
+                    "key": "proj_speed",
+                    "expression": "300"
+                },
+                {
+                    "key": "spike_ball_damage",
+                    "expression": "2"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 5,
+            "name": "LOC_UPGRADE_NAME_Ultra-Juggernaut",
+            "description": "LOC_UPGRADE_DESC_Ultra-Juggernaut",
+            "parent_id": 4,
+            "cost": 15000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "pierce",
+                    "expression": "200"
+                },
+                {
+                    "key": "primary_projectile",
+                    "expression": "30"
+                },
+                {
+                    "key": "proj_visual",
+                    "expression": "2"
+                },
+                {
+                    "key": "ceramic_damage_ref",
+                    "expression": "31"
+                },
+                {
+                    "key": "spike_anim_delay",
+                    "expression": "0.07"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 6,
+            "name": "LOC_UPGRADE_NAME_Quick_Shots",
+            "description": "LOC_UPGRADE_DESC_Quick_Shots",
+            "parent_id": 0,
+            "cost": 100.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "reload_time",
+                    "expression": "x - t*0.15"
+                },
+                {
+                    "key": "smfc_reload_time",
+                    "expression": "x - t*0.15"
+                },
+                {
+                    "key": "pmfc_reload_time",
+                    "expression": "x - t*0.15"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 7,
+            "name": "LOC_UPGRADE_NAME_Very_Quick_Shots",
+            "description": "LOC_UPGRADE_DESC_Very_Quick_Shots",
+            "parent_id": 6,
+            "cost": 190.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "reload_time",
+                    "expression": "x - t*0.18"
+                },
+                {
+                    "key": "smfc_reload_time",
+                    "expression": "x - t*0.18"
+                },
+                {
+                    "key": "pmfc_reload_time",
+                    "expression": "x - t*0.18"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 8,
+            "name": "LOC_UPGRADE_NAME_Triple_Shot",
+            "description": "LOC_UPGRADE_DESC_Triple_Shot",
+            "parent_id": 7,
+            "cost": 350.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "weapon_ref",
+                    "expression": "18"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 9,
+            "name": "LOC_UPGRADE_NAME_Super_Monkey_Fan_Club",
+            "description": "LOC_UPGRADE_DESC_Super_Monkey_Fan_Club",
+            "parent_id": 8,
+            "cost": 8000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "smfc_enabled",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 10,
+            "name": "LOC_UPGRADE_NAME_Plasma_Monkey_Fan_Club",
+            "description": "LOC_UPGRADE_DESC_Plasma_Monkey_Fan_Club",
+            "parent_id": 9,
+            "cost": 45000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "smfc_tower_limit",
+                    "expression": "20"
+                },
+                {
+                    "key": "smfc_alt_display_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "smfc_transform_eligable",
+                    "expression": "false"
+                },
+                {
+                    "key": "smfc_wep_group_id",
+                    "expression": "\"plasma_monkey_fan\""
+                },
+                {
+                    "key": "smfc_reload_time",
+                    "expression": "x * 0.5"
+                },
+                {
+                    "key": "smfc_mod_group_id",
+                    "expression": "\"plasma_monkey_fan\""
+                },
+                {
+                    "key": "smfc_mod_override_group",
+                    "expression": "x + {\"super_monkey_fan\"}"
+                },
+                {
+                    "key": "smfc_leader_alt_display_slot",
+                    "expression": "3"
+                },
+                {
+                    "key": "smfc_ability_id",
+                    "expression": "\"plasma_monkey_fan_club\""
+                },
+                {
+                    "key": "smfc_icon_slot",
+                    "expression": "1"
+                },
+                {
+                    "key": "disable_smfc_tower_target",
+                    "expression": "true"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 11,
+            "name": "LOC_UPGRADE_NAME_Long_Range_Darts",
+            "description": "LOC_UPGRADE_DESC_Long_Range_Darts",
+            "parent_id": 0,
+            "cost": 90.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + 8"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 12,
+            "name": "LOC_UPGRADE_NAME_Enhanced_Eyesight",
+            "description": "LOC_UPGRADE_DESC_Enhanced_Eyesight",
+            "parent_id": 11,
+            "cost": 200.0,
+            "cost_xp": 0.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + 8"
+                },
+                {
+                    "key": "exclude_features",
+                    "expression": "x&~EBloonFeatures.Camo"
+                },
+                {
+                    "key": "proj_speed",
+                    "expression": "x+30"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 13,
+            "name": "LOC_UPGRADE_NAME_Crossbow",
+            "description": "LOC_UPGRADE_DESC_Crossbow",
+            "parent_id": 12,
+            "cost": 575.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + 8"
+                },
+                {
+                    "key": "pierce",
+                    "expression": "x + 1"
+                },
+                {
+                    "key": "weapon_ref",
+                    "expression": "22"
+                },
+                {
+                    "key": "smfc_transform_eligable",
+                    "expression": "false"
+                },
+                {
+                    "key": "pmfc_transform_eligable",
+                    "expression": "false"
+                },
+                {
+                    "key": "proj_speed",
+                    "expression": "x+30"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 14,
+            "name": "LOC_UPGRADE_NAME_Sharp_Shooter",
+            "description": "LOC_UPGRADE_DESC_Sharp_Shooter",
+            "parent_id": 13,
+            "cost": 2000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "arrow_damage",
+                    "expression": "x + 3"
+                },
+                {
+                    "key": "crossbow_emission_ref",
+                    "expression": "25"
+                },
+                {
+                    "key": "proj_speed",
+                    "expression": "x + 40"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "0.75"
+                }
+            ]
+        },
+        {
+            "type": 1,
+            "id": 15,
+            "name": "LOC_UPGRADE_NAME_Crossbow_Master",
+            "description": "LOC_UPGRADE_DESC_Crossbow_Master",
+            "parent_id": 14,
+            "cost": 25000.0,
+            "cost_xp": 1.0,
+            "requires_prompt": false,
+            "variable_modifiers": [
+                {
+                    "key": "range",
+                    "expression": "x + 20"
+                },
+                {
+                    "key": "reload_time",
+                    "expression": "0.16"
+                },
+                {
+                    "key": "pierce",
+                    "expression": "x + 7"
+                },
+                {
+                    "key": "proj_speed",
+                    "expression": "x+50"
+                },
+                {
+                    "key": "random_min",
+                    "expression": "4"
+                },
+                {
+                    "key": "random_max",
+                    "expression": "8"
+                },
+                {
+                    "key": "arrow_ignore_immunity",
+                    "expression": "EBloonType.Lead|EBloonType.DDT"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "id": 16,
+            "name": "dart_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": 0.14000000059604646,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "dart_proj_ref"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 17,
+            "name": "dart",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": "dart_damage",
+                "damage_type": "damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": "proj_visual",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "proj_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 18,
+            "name": "tripple_dart_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": 0.14000000059604646,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SArcEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "count": 3,
+                    "spread_angle": 30.0,
+                    "lateral_offset": 0.0,
+                    "inclusive_angle": true,
+                    "spread_evenly": true,
+                    "projectile_props": "dart_proj_ref"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 19,
+            "name": "spikeopult_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": "spike_anim_delay",
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "primary_projectile"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 20,
+            "name": "spike_ball",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": "spike_ball_damage",
+                "damage_type": "damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Bounce",
+                "visual_slot": "proj_visual",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        "ceramic_damage_ref"
+                    ]
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "proj_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 21,
+            "name": "arrow",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": "arrow_damage",
+                "damage_type": "damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce + crossbow_pierce_boost",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": "proj_visual",
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "arrow_ignore_immunity",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "proj_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 22,
+            "name": "crossbow_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": true,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": "crossbow_emission_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 24,
+            "name": "arrow_crit",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": "proj_radius",
+                "infinite_collision_radius": false,
+                "damage": 50.0,
+                "damage_type": "damage_type",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce + crossbow_pierce_boost",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "arrow_ignore_immunity",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "vfx_on_contact": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "proj_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 23,
+            "name": "Crossbow Emission",
+            "props": {
+                "type": "SSingleEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "projectile_props": "arrow_proj_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 25,
+            "name": "SharpShooter Emission",
+            "props": {
+                "type": "SRandomSwitchEmissionProps",
+                "enabled": true,
+                "slot": 0,
+                "spray_angle": 0.0,
+                "regular_projectile_props": "arrow_proj_ref",
+                "random_min_shot_count": "random_min",
+                "random_max_shot_count": "random_max",
+                "alternate_projectile_props": "arrow_crit_proj_ref"
+            }
+        },
+        {
+            "type": 4,
+            "id": 26,
+            "name": "super_monkey_fan_club",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": "smfc_enabled",
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": 1.0,
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"\"",
+                "targeting_props": {
+                    "type": "SAreaTargetingProps",
+                    "enabled": true,
+                    "base_position_type": "Origin",
+                    "point_sample_distance": 6.0,
+                    "ideal_distance_within_track": 0.0,
+                    "prioritise_random_target_over_base_position": true,
+                    "required_valid_target": false
+                },
+                "activated_ability_props": {
+                    "type": "SActivatedAbilityProps",
+                    "enabled": true,
+                    "ability_id": {
+                        "id": "smfc_ability_id"
+                    },
+                    "ability_icon_slot": "smfc_icon_slot",
+                    "cooldown_time": "smfc_cooldown",
+                    "initial_cooldown_mod": "smfc_initial_cooldown",
+                    "requires_valid_target": false,
+                    "debt_lock": false,
+                    "automatic_firing": false,
+                    "moving_has_range_constraint": false,
+                    "cooldown_starts_upon_firing": false,
+                    "close_tower_ui_if_activated": false,
+                    "smfc_props": {
+                        "type": "SSMFCAbilityProps",
+                        "enabled": true,
+                        "tower_limit": "smfc_tower_limit",
+                        "group_id": {
+                            "group_str": "smfc_wep_group_id"
+                        },
+                        "apply_to_self_only": false,
+                        "tower_mods": [
+                            {
+                                "type": "STowerModifierProps",
+                                "enabled": true,
+                                "is_multi_dependent": false,
+                                "group_id": {
+                                    "group_str": "smfc_mod_group_id"
+                                },
+                                "accumulate_modifier": false,
+                                "mod": {
+                                    "type": "STowerWeaponEnabledMod",
+                                    "enabled": true,
+                                    "apply_to_self": false,
+                                    "modify_type": "Stack",
+                                    "mod_instances_limit": 1,
+                                    "weapon_override_props": {
+                                        "type": "SWeaponOverrideProps",
+                                        "enabled": true,
+                                        "enable_weapon_group_id": {
+                                            "group_str": "smfc_wep_group_id"
+                                        },
+                                        "disable_non_group_weapons": true,
+                                        "disable_trigger_weapon": false,
+                                        "trigger_weapon_group_id": {
+                                            "group_str": "smfc_aa_group_id"
+                                        }
+                                    },
+                                    "Simulation::Properties::SPropertyModifier::group_props": {
+                                        "type": "SModifierGroupProps",
+                                        "enabled": true,
+                                        "group": {
+                                            "group_str": "smfc_mod_group_id"
+                                        },
+                                        "overrides_groups": "{}"
+                                    }
+                                },
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "smfc_lifespan"
+                                }
+                            },
+                            {
+                                "type": "STowerModifierProps",
+                                "enabled": true,
+                                "is_multi_dependent": false,
+                                "group_id": {
+                                    "group_str": "smfc_mod_group_id"
+                                },
+                                "accumulate_modifier": false,
+                                "mod": {
+                                    "type": "STowerRangeMod",
+                                    "enabled": true,
+                                    "apply_to_self": true,
+                                    "modify_type": "Exclusive",
+                                    "mod_instances_limit": 1,
+                                    "multiplier": 0.0,
+                                    "additive": 8.0,
+                                    "Simulation::Properties::SPropertyModifier::group_props": {
+                                        "type": "SModifierGroupProps",
+                                        "enabled": true,
+                                        "group": {
+                                            "group_str": "smfc_mod_group_id"
+                                        },
+                                        "overrides_groups": [
+                                            2745614147
+                                        ]
+                                    }
+                                },
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "smfc_lifespan"
+                                }
+                            }
+                        ],
+                        "additional_leader_tower_mods": [
+                            {
+                                "type": "STowerModifierProps",
+                                "enabled": true,
+                                "is_multi_dependent": false,
+                                "group_id": {
+                                    "group_str": "smfc_mod_group_id"
+                                },
+                                "accumulate_modifier": false,
+                                "mod": {
+                                    "type": "STowerActiveVFXMod",
+                                    "enabled": true,
+                                    "apply_to_self": false,
+                                    "modify_type": "Stack",
+                                    "mod_instances_limit": 0,
+                                    "new_active_vfx_props": [
+                                        {
+                                            "type": "SActiveVFXProps",
+                                            "enabled": true,
+                                            "vfx_props": {
+                                                "type": "SVisualEffectProps",
+                                                "enabled": true,
+                                                "effect_visual_slot": 4,
+                                                "use_alt_emission_slot": false,
+                                                "emission_slot": 0,
+                                                "life_dependent_on_parent_tower": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "effector_props": {
+                                    "type": "SAltTowerDisplayProps",
+                                    "enabled": true,
+                                    "display_idx": "smfc_leader_alt_display_slot",
+                                    "change_tower_base": false,
+                                    "base_display_idx": 0,
+                                    "use_this_towers_scene": false,
+                                    "vfx_on_begin_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 3,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    },
+                                    "vfx_on_end_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 3,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    }
+                                },
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "smfc_duration"
+                                }
+                            }
+                        ],
+                        "additional_non_leader_tower_mods": [
+                            {
+                                "type": "STowerModifierProps",
+                                "enabled": true,
+                                "is_multi_dependent": true,
+                                "group_id": {
+                                    "group_str": "smfc_mod_group_id"
+                                },
+                                "accumulate_modifier": false,
+                                "mod": {
+                                    "type": "STowerActiveVFXMod",
+                                    "enabled": true,
+                                    "apply_to_self": false,
+                                    "modify_type": "Stack",
+                                    "mod_instances_limit": 0,
+                                    "new_active_vfx_props": [
+                                        {
+                                            "type": "SActiveVFXProps",
+                                            "enabled": true,
+                                            "vfx_props": {
+                                                "type": "SVisualEffectProps",
+                                                "enabled": true,
+                                                "effect_visual_slot": 2,
+                                                "use_alt_emission_slot": false,
+                                                "emission_slot": 0,
+                                                "life_dependent_on_parent_tower": false
+                                            }
+                                        }
+                                    ]
+                                },
+                                "effector_props": {
+                                    "type": "SAltTowerDisplayProps",
+                                    "enabled": true,
+                                    "display_idx": "smfc_alt_display_slot",
+                                    "change_tower_base": false,
+                                    "base_display_idx": 0,
+                                    "use_this_towers_scene": false,
+                                    "vfx_on_begin_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 3,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    },
+                                    "vfx_on_end_props": {
+                                        "type": "SVisualEffectProps",
+                                        "enabled": true,
+                                        "effect_visual_slot": 3,
+                                        "use_alt_emission_slot": false,
+                                        "emission_slot": 0,
+                                        "life_dependent_on_parent_tower": false
+                                    }
+                                },
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "smfc_duration"
+                                },
+                                "tower_filter_props": "smfc_exclude_towers"
+                            },
+                            {
+                                "type": "STowerModifierProps",
+                                "enabled": "disable_smfc_tower_target",
+                                "is_multi_dependent": true,
+                                "group_id": {
+                                    "group_str": "smfc_mod_group_id"
+                                },
+                                "accumulate_modifier": false,
+                                "mod": {
+                                    "type": "STowerSmfcTargetMod",
+                                    "enabled": true,
+                                    "apply_to_self": false,
+                                    "modify_type": "Exclusive",
+                                    "mod_instances_limit": 1,
+                                    "smfc_target_props": {
+                                        "type": "SSMFCTowerTargetProps",
+                                        "enabled": false,
+                                        "weapon_group_id": {
+                                            "group_str": "\"super_monkey_fan\""
+                                        }
+                                    }
+                                },
+                                "lifespan_props": {
+                                    "type": "SLifespanSecondsProps",
+                                    "enabled": true,
+                                    "lifespan": "smfc_duration"
+                                },
+                                "tower_filter_props": {
+                                    "type": "SExclusiveTowerFilterProps",
+                                    "enabled": true,
+                                    "exclude_types": "DartMonkey",
+                                    "exclude_kinds": "None",
+                                    "exclude_category": "None",
+                                    "exclude_upgrades": {
+                                        "type": "SUpgradeTierProps",
+                                        "enabled": true,
+                                        "paths": [
+                                            1
+                                        ],
+                                        "tiers": [
+                                            4,
+                                            5
+                                        ]
+                                    },
+                                    "exclude_area_types": "None",
+                                    "exclude_placed_area_types": "None",
+                                    "exclude_must_have_weapon": false,
+                                    "exclude_mod_groups": [],
+                                    "exclude_target_mode": "None",
+                                    "exclude_any_combo": false
+                                }
+                            }
+                        ],
+                        "use_tower_filter_alternative": false
+                    },
+                    "vfx_on_activation": [
+                        {
+                            "type": "SVisualEffectProps",
+                            "enabled": true,
+                            "effect_visual_slot": 1,
+                            "use_alt_emission_slot": false,
+                            "emission_slot": 0,
+                            "life_dependent_on_parent_tower": false
+                        }
+                    ],
+                    "sfx_on_activation": {
+                        "type": "SSoundEffectProps",
+                        "enabled": true,
+                        "effect_slot": 5
+                    }
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "smfc_aa_group_id"
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 27,
+            "name": "smfc_dart_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": false,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "smfc_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "dart_proj_ref"
+                },
+                "vfx_on_emission_props": [
+                    {
+                        "type": "SVisualEffectProps",
+                        "enabled": true,
+                        "effect_visual_slot": 0,
+                        "use_alt_emission_slot": false,
+                        "emission_slot": 0,
+                        "life_dependent_on_parent_tower": false
+                    }
+                ],
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"super_monkey_fan\""
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 28,
+            "name": "pmfc_plasma_launcher",
+            "props": {
+                "type": "SWeaponProps",
+                "enabled": false,
+                "targeting_mode_override": "None",
+                "require_specific_targeting_mode": false,
+                "required_target_mode": "None",
+                "initial_load_time": 0.0,
+                "reload_time": "pmfc_reload_time",
+                "emission_delay": 0.0,
+                "avoid_buff": "None",
+                "weapon_rotation_props": {
+                    "type": "SRotateTowerWeaponRotationProps",
+                    "enabled": true,
+                    "weapon_can_rotate": true,
+                    "weapon_rotates_tower": true,
+                    "tower_rotation_offset": 0.0,
+                    "continuous_rotation": false,
+                    "rotation_rate": 0.0,
+                    "use_alt_rotation_if_closer": false,
+                    "alt_rotation_tower_rotation_offset": 0.0,
+                    "alt_rotation_emission_slot": 0,
+                    "alt_rotation_animation_trigger": ""
+                },
+                "ammo_count": -1,
+                "refresh_ammo_on_round_start": true,
+                "refresh_ammo_skip_first_round": false,
+                "init_ammo_proportional_to_time_left_in_round": false,
+                "refresh_ammo_on_upgrade": false,
+                "update_ammo_on_upgrade": true,
+                "update_ammo_proportional_to_time_left_in_round": false,
+                "dump_leftover_ammo_on_round_start": true,
+                "spread_ammo_use_evenly_during_round": false,
+                "initialise_with_no_ammo": false,
+                "reset_ammo_on_target_aquisition": false,
+                "field_of_view": 360.0,
+                "ignore_tower_range": false,
+                "use_parent_targeting_inputs": false,
+                "use_target_mode_from_owning_parents_parent_tower": false,
+                "animation_trigger": "\"attack\"",
+                "targeting_props": {
+                    "type": "SBloonTargetingProps",
+                    "enabled": true,
+                    "target_handedness": "None",
+                    "independent_target_override": "First",
+                    "ignore_line_of_sight": false,
+                    "use_bloon_position": false,
+                    "exclusive_filter_props": {
+                        "type": "SExclusiveBloonFilterProps",
+                        "enabled": true,
+                        "exclude_types": "None",
+                        "exclude_features": "exclude_features",
+                        "exclude_status": "None",
+                        "exclude_mod_groups": [],
+                        "chance": 1.0
+                    }
+                },
+                "emission_props": {
+                    "type": "SSingleEmissionProps",
+                    "enabled": true,
+                    "slot": 0,
+                    "spray_angle": 0.0,
+                    "projectile_props": "pmfc_plasma_proj_ref"
+                },
+                "weapon_group_props": {
+                    "type": "SWeaponGroupProps",
+                    "enabled": true,
+                    "group_id": {
+                        "group_str": "\"plasma_monkey_fan\""
+                    }
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 29,
+            "name": "plasma",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 6.0,
+                "infinite_collision_radius": false,
+                "damage": "dart_damage + 1",
+                "damage_type": "Plasma",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": "pierce + 3",
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Destroy",
+                "visual_slot": 1,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": false,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": 300.0
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 30,
+            "name": "ultra_juggernaut",
+            "props": {
+                "type": "SProjectileProps",
+                "enabled": true,
+                "collision_radius": 9.0,
+                "infinite_collision_radius": false,
+                "damage": 4.0,
+                "damage_type": "Unstoppable",
+                "damage_distribution_mode": "ChildrenIfAllowed",
+                "pierce": 200.0,
+                "avoid_buff": "None",
+                "collide_only_with_target": false,
+                "collide_with_target_multiple_times": false,
+                "collide_with_blockers": "Bounce",
+                "visual_slot": 0,
+                "random_starting_angle": false,
+                "ignore_immunity_for_bloon_types": "None",
+                "ignore_immunity_for_damage_type": "None",
+                "projectile_type": "None",
+                "lifespan_depends_on_target": false,
+                "lifespan_depends_on_tower": false,
+                "destroy_projectile_when_tower_redeploys": false,
+                "show_visual_on_spawn": true,
+                "destroy_at_screen_bounds": true,
+                "transform_emission_point_by_camera": false,
+                "lifespan_props": {
+                    "type": "SLifespanSecondsProps",
+                    "enabled": true,
+                    "lifespan": "proj_lifespan"
+                },
+                "collision_filter_props": {
+                    "type": "SExclusiveBloonFilterProps",
+                    "enabled": true,
+                    "exclude_types": "None",
+                    "exclude_features": "exclude_features",
+                    "exclude_status": "None",
+                    "exclude_mod_groups": [],
+                    "chance": 1.0
+                },
+                "create_projectile_props": {
+                    "type": "SCreateProjectileOnDeathProps",
+                    "enabled": true,
+                    "emission_props": [
+                        {
+                            "type": "SArcEmissionProps",
+                            "enabled": true,
+                            "slot": 0,
+                            "count": 6,
+                            "spread_angle": 360.0,
+                            "lateral_offset": 0.0,
+                            "inclusive_angle": true,
+                            "spread_evenly": true,
+                            "projectile_props": "spikeball_proj_ref"
+                        }
+                    ],
+                    "targeting_props": {
+                        "type": "SAreaTargetingProps",
+                        "enabled": true,
+                        "base_position_type": "Origin",
+                        "point_sample_distance": 6.0,
+                        "ideal_distance_within_track": 0.0,
+                        "prioritise_random_target_over_base_position": true,
+                        "required_valid_target": false
+                    },
+                    "use_parents_collision_history": false,
+                    "emit_from_last_contact_position": false,
+                    "emit_on_bloon_leak": true,
+                    "use_target_bloon_props_as_originating_entity_props": false,
+                    "render_on_death": false
+                },
+                "create_projectile_below_pierce_or_lifespan": {
+                    "type": "SCreateProjectileBelowPierceOrLifespanProps",
+                    "enabled": true,
+                    "use_pierce": true,
+                    "fire_below_pierce": "pierce * 0.5",
+                    "use_lifespan": true,
+                    "fire_below_lifespan": "proj_lifespan * 0.3",
+                    "targeting_props": {
+                        "type": "SAreaTargetingProps",
+                        "enabled": true,
+                        "base_position_type": "Origin",
+                        "point_sample_distance": 6.0,
+                        "ideal_distance_within_track": 0.0,
+                        "prioritise_random_target_over_base_position": true,
+                        "required_valid_target": false
+                    },
+                    "emission_props": {
+                        "type": "SArcEmissionProps",
+                        "enabled": true,
+                        "slot": 0,
+                        "count": 6,
+                        "spread_angle": "360",
+                        "lateral_offset": 0.0,
+                        "inclusive_angle": true,
+                        "spread_evenly": true,
+                        "projectile_props": "spikeball_proj_ref"
+                    }
+                },
+                "damage_props": {
+                    "type": "SDamageAdjustProps",
+                    "enabled": true,
+                    "damage_adjust_filters": [
+                        "ceramic_damage_ref"
+                    ]
+                },
+                "vfx_on_despawn": {
+                    "type": "SVisualEffectProps",
+                    "enabled": true,
+                    "effect_visual_slot": 1,
+                    "use_alt_emission_slot": false,
+                    "emission_slot": 0,
+                    "life_dependent_on_parent_tower": false
+                },
+                "projectile_motion_props": {
+                    "type": "SProjectileMotionLinearProps",
+                    "enabled": true,
+                    "speed": "proj_speed"
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 32,
+            "name": "Damage Adjust Filter",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": true,
+                "damage_set": -1.0,
+                "damage_modifier": 0.0,
+                "damage_multiplier": 2.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 31,
+            "name": "Juggernaut Dmg Filter",
+            "props": {
+                "type": "SDamageAdjustFilterProps",
+                "enabled": true,
+                "damage_set": -1.0,
+                "damage_modifier": 0.0,
+                "damage_multiplier": 3.0,
+                "damage_modifier_non_multiplicable": 0.0,
+                "inclusive_filter_props": {
+                    "type": "SInclusiveBloonFilterProps",
+                    "enabled": true,
+                    "include_types": "Ceramic",
+                    "include_features": "None",
+                    "include_status": "None",
+                    "include_mod_groups": [],
+                    "chance": 1.0,
+                    "only_sent_bloons": false
+                }
+            }
+        },
+        {
+            "type": 4,
+            "id": 33,
+            "name": "Exclusive Tower Filter",
+            "props": {
+                "type": "SExclusiveTowerFilterProps",
+                "enabled": true,
+                "exclude_types": "None",
+                "exclude_kinds": "None",
+                "exclude_category": "None",
+                "exclude_area_types": "None",
+                "exclude_placed_area_types": "None",
+                "exclude_must_have_weapon": false,
+                "exclude_mod_groups": "{\"transforming_tonic\"}",
+                "exclude_target_mode": "None",
+                "exclude_any_combo": false
+            }
+        }
+    ]
+}
